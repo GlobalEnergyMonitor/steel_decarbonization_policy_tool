@@ -1,0 +1,88 @@
+Growing steel demand, Regulators
+Growing steel demand, Investors
+Green Energy and Resource Availability, Competitiveness of Low-Emissions Steel
+Green Energy and Resource Availability, Investors
+Green Energy and Resource Availability, Steel companies reinvest in emissions-intensive steelmaking
+Green Energy and Resource Availability, Availability of Low-Emissions Infrastructure
+Steel Recycling Capacity, Green Energy and Resource Availability
+Profit Margins, Lifetime and Reinvestment Cycles
+Profit Margins, Availability of Low-Emissions Technologies
+Profit Margins, Regulators
+Profit Margins, Steel companies reinvest in emissions-intensive steelmaking
+Profit Margins, Access to Financial Resources
+Market Security for Low-Emissions Steel, Competitiveness of Low-Emissions Steel
+Market Security for Low-Emissions Steel, Investors
+Market Security for Low-Emissions Steel, Steel companies reinvest in emissions-intensive steelmaking
+Market Security for Low-Emissions Steel, Availability of Low-Emissions Technologies
+Competitiveness of Low-Emissions Steel, Access to Financial Resources
+Competitiveness of Low-Emissions Steel, Market Security for Low-Emissions Steel
+Competitiveness of Low-Emissions Steel, Steel companies reinvest in emissions-intensive steelmaking
+Competitiveness of Low-Emissions Steel, Regulators
+Competitiveness of Low-Emissions Steel, Customers
+Excessive Government Intervention, Awareness and Information Availability
+Excessive Government Intervention, Accountability to Steel Decarbonization
+Excessive Government Intervention, Overcapacity
+Overcapacity, Competitiveness of Low-Emissions Steel
+Overcapacity, International Cooperation
+Overcapacity, Lifetime and Reinvestment Cycles
+Overcapacity, Profit Margins
+Steel Plant Construction Cost, Investors
+Steel Plant Construction Cost, Profit Margins
+Lifetime and Reinvestment Cycles, Availability of Low-Emissions Technologies
+Access to Financial Resources, Steel companies reinvest in emissions-intensive steelmaking
+Availability of Low-Emissions Technologies, Technology Standards
+Availability of Low-Emissions Technologies, Investors
+Availability of Low-Emissions Technologies, Awareness and Information Availability
+Availability of Low-Emissions Technologies, Steel companies reinvest in emissions-intensive steelmaking
+Availability of Low-Emissions Technologies, Trained Professionals
+Availability of Low-Emissions Infrastructure, Steel Plant Construction Cost
+Availability of Low-Emissions Infrastructure, Green Energy and Resource Availability
+Trained Professionals, Green Energy and Resource Availability
+Trained Professionals, Regulators
+Trained Professionals, Availability of Low-Emissions Infrastructure
+Trained Professionals, Availability of Low-Emissions Technologies
+Green Steel Definition, Competitiveness of Low-Emissions Steel
+Green Steel Definition, Awareness and Information Availability
+Green Steel Definition, International Cooperation
+Green Steel Definition, Accountability to Steel Decarbonization
+Technology Standards, Bureaucratic Barriers
+Technology Standards, Awareness and Information Availability
+Technology Standards, Availability of Low-Emissions Technologies
+Bureaucratic Barriers, Access to Financial Resources
+Bureaucratic Barriers, Steel companies reinvest in emissions-intensive steelmaking
+Bureaucratic Barriers, Investors
+Bureaucratic Barriers, Availability of Low-Emissions Infrastructure
+Accountability to Steel Decarbonization, Awareness and Information Availability
+Accountability to Steel Decarbonization, Investors
+International Cooperation, Awareness and Information Availability
+International Cooperation, Access to Financial Resources
+International Cooperation, Competitiveness of Low-Emissions Steel
+International Cooperation, Green Energy and Resource Availability
+International Cooperation, Overcapacity
+International Cooperation, Investors
+International Cooperation, Green Steel Definition
+International Cooperation, Accountability to Steel Decarbonization
+Awareness and Information Availability, Accountability to Steel Decarbonization
+Awareness and Information Availability, Civil Society
+Awareness and Information Availability, Customers
+Awareness and Information Availability, Steel companies reinvest in emissions-intensive steelmaking
+Awareness and Information Availability, Regulators
+Awareness and Information Availability, Investors
+Steel companies reinvest in emissions-intensive steelmaking, Competitiveness of Low-Emissions Steel
+Customers, Steel Recycling Capacity
+Customers, Competitiveness of Low-Emissions Steel
+Customers, Growing steel demand
+Customers, Market Security for Low-Emissions Steel
+Customers, Investors
+Regulators, Excessive Government Intervention
+Regulators, Steel Recycling Capacity
+Regulators, Customers
+Regulators, Investors
+Regulators, Technology Standards
+Regulators, Green Steel Definition
+Investors, Customers
+Investors, Access to Financial Resources
+Investors, Availability of Low-Emissions Technologies
+Civil Society, Customers
+Civil Society, Regulators
+Civil Society, Investors

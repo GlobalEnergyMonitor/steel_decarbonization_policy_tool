@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://globalenergymonitor.org/projects/global-coal-mine-tracker/ -->
+<html lang="en-US" class="fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+  
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.8 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Energy Policy Interactive Map</title>
+	<style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.225em;
+}
+.svg-inline--fa.fa-w-1 {
+  width: 0.0625em;
+}
+.svg-inline--fa.fa-w-2 {
+  width: 0.125em;
+}
+.svg-inline--fa.fa-w-3 {
+  width: 0.1875em;
+}
+.svg-inline--fa.fa-w-4 {
+  width: 0.25em;
+}
+.svg-inline--fa.fa-w-5 {
+  width: 0.3125em;
+}
+.svg-inline--fa.fa-w-6 {
+  width: 0.375em;
+}
+.svg-inline--fa.fa-w-7 {
+  width: 0.4375em;
+}
+.svg-inline--fa.fa-w-8 {
+  width: 0.5em;
+}
+.svg-inline--fa.fa-w-9 {
+  width: 0.5625em;
+}
+.svg-inline--fa.fa-w-10 {
+  width: 0.625em;
+}
+.svg-inline--fa.fa-w-11 {
+  width: 0.6875em;
+}
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+.svg-inline--fa.fa-w-13 {
+  width: 0.8125em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+.svg-inline--fa.fa-w-15 {
+  width: 0.9375em;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa.fa-w-17 {
+  width: 1.0625em;
+}
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+.svg-inline--fa.fa-w-19 {
+  width: 1.1875em;
+}
+.svg-inline--fa.fa-w-20 {
+  width: 1.25em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-border {
+  height: 1.5em;
+}
+.svg-inline--fa.fa-li {
+  width: 2em;
+}
+.svg-inline--fa.fa-fw {
+  width: 1.25em;
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: 0.25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.fa-pull-left {
+  float: left;
+}
+
+.fa-pull-right {
+  float: right;
+}
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: 0.3em;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse {
+  color: #fff;
+}</style><link rel="canonical" href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Energy Policy Interactive Map">
+	<meta property="og:description" content="The Global Coal Mine Tracker (GCMT) is a worldwide dataset of coal mines and proposed projects. The tracker provides asset-level details on ownership structure, development stage and status, coal type, production, workforce size, reserves and resources, methane emissions, geolocation, and over 30 other categories.  The most recent release of this data was in April 2023 … Continued">
+	<meta property="og:url" content="https://globalenergymonitor.org/projects/global-coal-mine-tracker/">
+	<meta property="og:site_name" content="Global Energy Monitor">
+	<meta property="article:modified_time" content="2023-07-18T16:27:29+00:00">
+	<meta property="og:image" content="https://globalenergymonitor.org/wp-content/uploads/2020/12/dragline-surface-mining-004.jpg">
+	<meta property="og:image:width" content="1540">
+	<meta property="og:image:height" content="856">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@GlobalEnergyMon">
+	<meta name="twitter:label1" content="Est. reading time">
+	<meta name="twitter:data1" content="2 minutes">
+	<script type="text/javascript" async="" src="./static/global_files/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-ToIRK/fCxk6HZidjy8su24Pn+8FsKiX4QnuO0AfQZBcsd0m8DMaqafsc91h4byqU"></script><script type="text/javascript" async="" src="./static/global_files/js"></script><script type="text/javascript" async="" src="./static/global_files/js(1)"></script><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://globalenergymonitor.org/projects/enery-policy-map/","url":"https://globalenergymonitor.org/projects/global-coal-mine-tracker/","name":"Energy Policy Map","isPartOf":{"@id":"https://globalenergymonitor.org/#website"},"primaryImageOfPage":{"@id":"https://globalenergymonitor.org/projects/global-coal-mine-tracker/#primaryimage"},"image":{"@id":"https://globalenergymonitor.org/projects/global-coal-mine-tracker/#primaryimage"},"thumbnailUrl":"https://globalenergymonitor.org/wp-content/uploads/2020/12/dragline-surface-mining-004.jpg","datePublished":"2020-11-26T06:59:53+00:00","dateModified":"2023-07-18T16:27:29+00:00","breadcrumb":{"@id":"https://globalenergymonitor.org/projects/global-coal-mine-tracker/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://globalenergymonitor.org/projects/global-coal-mine-tracker/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://globalenergymonitor.org/projects/global-coal-mine-tracker/#primaryimage","url":"https://globalenergymonitor.org/wp-content/uploads/2020/12/dragline-surface-mining-004.jpg","contentUrl":"https://globalenergymonitor.org/wp-content/uploads/2020/12/dragline-surface-mining-004.jpg","width":1540,"height":856,"caption":"An excavating machine sits next to an open pit mine"},{"@type":"BreadcrumbList","@id":"https://globalenergymonitor.org/projects/global-coal-mine-tracker/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://globalenergymonitor.org/"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://globalenergymonitor.org/projects/"},{"@type":"ListItem","position":3,"name":"Global Coal Mine Tracker"}]},{"@type":"WebSite","@id":"https://globalenergymonitor.org/#website","url":"https://globalenergymonitor.org/","name":"Global Energy Monitor","description":"Building an open guide to the world’s energy system.","publisher":{"@id":"https://globalenergymonitor.org/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://globalenergymonitor.org/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://globalenergymonitor.org/#organization","name":"Global Energy Monitor","url":"https://globalenergymonitor.org/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://globalenergymonitor.org/#/schema/logo/image/","url":"https://globalenergymonitor.org/wp-content/uploads/2021/12/Logo.png","contentUrl":"https://globalenergymonitor.org/wp-content/uploads/2021/12/Logo.png","width":609,"height":269,"caption":"Global Energy Monitor"},"image":{"@id":"https://globalenergymonitor.org/#/schema/logo/image/"},"sameAs":["https://twitter.com/GlobalEnergyMon","https://www.linkedin.com/company/global-energy-monitor/","https://en.wikipedia.org/wiki/Global_Energy_Monitor"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://js.stripe.com/">
+<link rel="dns-prefetch" href="https://www.google.com/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.19 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="./static/global_files/js(2)" data-cfasync="false" data-wpfc-render="false" type="text/javascript" async=""></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.19';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-2LBR81ZFNQ',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-2LBR81ZFNQ', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<link rel="stylesheet" id="wp-block-library-css" href="./static/global_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="./static/global_files/classic-themes.min.css" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark: #1a2a2a;--wp--preset--color--light: #f2fafa;--wp--preset--color--cyan: #84d7d6;--wp--preset--color--purple: #c64484;--wp--preset--color--light-gray: #dcdede;--wp--preset--color--medium-gray: #b5bbbb;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="give-styles-css" href="./static/global_files/give.css" type="text/css" media="all">
+<link rel="stylesheet" id="give-donation-summary-style-frontend-css" href="./static/global_files/give-donation-summary.css" type="text/css" media="all">
+<link rel="stylesheet" id="search-filter-plugin-styles-css" href="./static/global_files/search-filter.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="sage/main.css-css" href="./static/global_files/main_b5f57e29.css" type="text/css" media="all">
+<script type="text/javascript" src="./static/global_files/frontend-gtag.min.js" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="monsterinsights-frontend-script-js-extra">/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/globalenergymonitor.org","hash_tracking":"false","v4_id":"G-2LBR81ZFNQ"};/* ]]> */
+</script>
+<script type="text/javascript" id="give-stripe-js-js-extra">
+/* <![CDATA[ */
+var give_stripe_vars = {"zero_based_currency":"","zero_based_currencies_list":["JPY","KRW","CLP","ISK","BIF","DJF","GNF","KHR","KPW","LAK","LKR","MGA","MZN","VUV"],"sitename":"","checkoutBtnTitle":"Donate","publishable_key":"pk_live_SMtnnvlq4TpJelMdklNha8iD","checkout_image":"","checkout_address":"","checkout_processing_text":"Donation Processing...","give_version":"2.27.2","cc_fields_format":"multi","card_number_placeholder_text":"Card Number","card_cvc_placeholder_text":"CVC","donate_button_text":"Donate Now","element_font_styles":{"cssSrc":false},"element_base_styles":{"color":"#32325D","fontWeight":500,"fontSize":"16px","fontSmoothing":"antialiased","::placeholder":{"color":"#222222"},":-webkit-autofill":{"color":"#e39f48"}},"element_complete_styles":{},"element_empty_styles":{},"element_invalid_styles":{},"float_labels":"","base_country":"US","preferred_locale":"en"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./static/global_files/saved_resource" id="give-stripe-js-js"></script>
+<script type="text/javascript" src="./static/global_files/give-stripe.js" id="give-stripe-onpage-js-js"></script>
+<script type="text/javascript" src="./static/global_files/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="./static/global_files/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./static/global_files/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="./static/global_files/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="./static/global_files/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="./static/global_files/hooks.min.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="./static/global_files/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" id="give-js-extra">
+/* <![CDATA[ */
+var give_global_vars = {"ajaxurl":"https:\/\/globalenergymonitor.org\/wp-admin\/admin-ajax.php","checkout_nonce":"5dcdb1367f","currency":"USD","currency_sign":"$","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","textForOverlayScreen":"<h3>Processing...<\/h3><p>This will only take a second!<\/p>","number_decimals":"2","is_test_mode":"","give_version":"2.27.2","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_last":"Please enter your last name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"https:\/\/globalenergymonitor.org\/wp-admin\/admin-ajax.php","ajaxNonce":"f1b1c1d4de","loading":"Loading","select_option":"Please select an option","default_gateway":"stripe","permalinks":"1","number_decimals":2},"cookie_hash":"09b03c6c56196db154081e663b68685c","session_nonce_cookie_name":"wp-give_session_reset_nonce_09b03c6c56196db154081e663b68685c","session_cookie_name":"wp-give_session_09b03c6c56196db154081e663b68685c","delete_session_nonce_cookie":"0"};
+var giveApiSettings = {"root":"https:\/\/globalenergymonitor.org\/wp-json\/give-api\/v2\/","rest_base":"give-api\/v2"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./static/global_files/give.js" id="give-js"></script>
+<script type="text/javascript" id="search-filter-plugin-build-js-extra">
+/* <![CDATA[ */
+var SF_LDATA = {"ajax_url":"https:\/\/globalenergymonitor.org\/wp-admin\/admin-ajax.php","home_url":"https:\/\/globalenergymonitor.org\/","extensions":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./static/global_files/search-filter-build.min.js" id="search-filter-plugin-build-js"></script>
+<script type="text/javascript" src="./static/global_files/chosen.jquery.min.js" id="search-filter-plugin-chosen-js"></script>
+<link rel="https://api.w.org/" href="https://globalenergymonitor.org/wp-json/"><link rel="alternate" type="application/json" href="https://globalenergymonitor.org/wp-json/wp/v2/pages/66"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://globalenergymonitor.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://globalenergymonitor.org/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.2.2">
+<link rel="shortlink" href="https://globalenergymonitor.org/?p=66">
+<link rel="alternate" type="application/json+oembed" href="https://globalenergymonitor.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fglobalenergymonitor.org%2Fprojects%2Fglobal-coal-mine-tracker%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://globalenergymonitor.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fglobalenergymonitor.org%2Fprojects%2Fglobal-coal-mine-tracker%2F&amp;format=xml">
+<meta name="generator" content="Give v2.27.2">
+<link rel="icon" href="https://globalenergymonitor.org/wp-content/uploads/2020/12/cropped-site-icon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://globalenergymonitor.org/wp-content/uploads/2020/12/cropped-site-icon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://globalenergymonitor.org/wp-content/uploads/2020/12/cropped-site-icon-180x180.png">
+<meta name="msapplication-TileImage" content="https://globalenergymonitor.org/wp-content/uploads/2020/12/cropped-site-icon-270x270.png">
+		<style type="text/css" id="wp-custom-css">
+			.blocks-gallery-grid:not(.has-nested-images), .wp-block-gallery:not(.has-nested-images) {
+	margin: 30px 0;
+}
+
+/* Hide reCAPTCHA v3 badge */
+.grecaptcha-badge { 
+	visibility: hidden; 
+}		</style>
+		
+  
+  <script>
+    gtag('config', 'AW-10868742103');
+    gtag('config', 'AW-11167283655');
+
+      </script>
+<script type="text/javascript" async="" src="./static/global_files/f.txt"></script><style class="gtranslate_css">a.glink{text-decoration:none}a.glink.gt-current-lang{font-weight:bold}</style><script type="text/javascript" async="" src="./static/global_files/f(1).txt"></script></head>
+  <body class="page-template-default page page-id-66 page-parent page-child parent-pageid-61 wp-embed-responsive global-coal-mine-tracker sidebar-primary app-data index-data singular-data page-data page-66-data page-global-coal-mine-tracker-data" data-new-gr-c-s-check-loaded="14.1121.0" data-gr-ext-installed="">
+        <header role="banner">
+  <div class="container">
+    <a class="skip-link" href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#main">Skip to content</a>
+    <a rel="home" href="https://globalenergymonitor.org/">
+      <img src="./static/global_files/logo_835a677f.svg" alt="Global Energy Monitor" width="195" height="86">
+    </a>
+    <nav class="menu--primary__wrap" aria-label="Primary Navigation">
+      
+      <button class="menu--primary__toggle" id="menu--primary__toggle" aria-expanded="false" aria-controls="menu--primary__container">
+        <span class="menu--primary__toggle__label">Menu</span>
+        <span class="menu--primary__toggle__icon"></span>
+      </button>
+
+      <div class="menu--primary__container is-hidden" id="menu--primary__container">
+        
+        <details class="lang-dropdown">
+          <summary class="lang-dropdown__btn">
+            <div class="summary-flex">
+              <svg class="svg-inline--fa fa-language fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="language" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z"></path></svg><!-- <i class="fas fa-language"></i> Font Awesome fontawesome.com -->
+              <span class="lang-dropdown__btn__lang">Language</span>
+              <svg class="svg-inline--fa fa-chevron-down fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-chevron-down"></i> Font Awesome fontawesome.com -->
+            </div>
+          </summary>
+          <div class="lang-dropdown__options">
+            <div class="gtranslate_wrapper gt_container--df7dxf" id="gt-wrapper-49247466"><!-- GTranslate: https://gtranslate.com --><a href="https://globalenergymonitor.org/zh-CN/projects/global-coal-mine-tracker/" data-gt-lang="zh-CN" class="glink nturl notranslate">简体中文</a> <a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/" data-gt-lang="en" class="glink nturl notranslate gt-current-lang">English</a> <a href="https://globalenergymonitor.org/es/projects/global-coal-mine-tracker/" data-gt-lang="es" class="glink nturl notranslate">Español</a> </div>
+          </div>
+        </details>
+        
+        
+        <ul id="menu-secondary-navigation" class="menu--secondary"><li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="https://globalenergymonitor.org/about/donate-money/">Support GEM</a></li>
+</ul>
+
+        
+        <div class="nav-menu__wrap" role="navigation"><ul id="menu-header-navigation" class="nav-menu accessible-megamenu js-accessible-megamenu"><li id="menu-item-8138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8138 accessible-megamenu-top-nav-item"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/?about" id="accessible-megamenu-1693276532689-1" role="button" aria-controls="accessible-megamenu-1693276532689-2" aria-expanded="false" tabindex="0">About</a>
+<ol class="sub-nav accessible-megamenu-panel" id="accessible-megamenu-1693276532689-2" role="region" aria-hidden="true" aria-labelledby="accessible-megamenu-1693276532689-1">
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">About</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8078"><a href="https://globalenergymonitor.org/about/">About Us</a></li>
+		<li id="menu-item-8079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8079"><a href="https://globalenergymonitor.org/about/our-story/">Our Story</a></li>
+		<li id="menu-item-8080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8080"><a href="https://globalenergymonitor.org/about/people/">People</a></li>
+		<li id="menu-item-8081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8081"><a href="https://globalenergymonitor.org/about/funding/">Funding</a></li>
+		<li id="menu-item-8468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8468"><a href="https://globalenergymonitor.org/about/financial-information/">Financial Information</a></li>
+		<li id="menu-item-8082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8082"><a href="https://globalenergymonitor.org/about/partnerships/">Partnerships</a></li>
+		<li id="menu-item-8083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8083"><a href="https://globalenergymonitor.org/about/who-uses-gem-data/">Who Uses GEM’s Data</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Get Involved</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8084"><a href="https://globalenergymonitor.org/about/jobs/">Jobs</a></li>
+		<li id="menu-item-8087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8087"><a href="https://globalenergymonitor.org/about/donate-money/">Support GEM</a></li>
+		<li id="menu-item-8091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8091"><a href="https://globalenergymonitor.org/about/contact/">Contact</a></li>
+	</ol>
+</li>
+</ol>
+</li>
+<li id="menu-item-8141" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-8141 accessible-megamenu-top-nav-item"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/?projects" id="accessible-megamenu-1693276532696-3" role="button" aria-controls="accessible-megamenu-1693276532696-4" aria-expanded="false" tabindex="0">Projects</a>
+<ol class="sub-nav accessible-megamenu-panel" id="accessible-megamenu-1693276532696-4" role="region" aria-hidden="true" aria-labelledby="accessible-megamenu-1693276532696-3">
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Coal</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8093"><a href="https://globalenergymonitor.org/projects/global-coal-plant-tracker/">Global Coal Plant Tracker</a></li>
+		<li id="menu-item-8094" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-66 current_page_item menu-item-8094"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/" aria-current="page">Global Coal Mine Tracker</a></li>
+		<li id="menu-item-8095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8095"><a href="https://globalenergymonitor.org/projects/global-coal-terminals-tracker/">Global Coal Terminals Tracker</a></li>
+		<li id="menu-item-8096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8096"><a href="https://globalenergymonitor.org/projects/global-coal-project-finance-tracker/">Global Coal Project Finance Tracker</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Oil &amp; Gas</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8097"><a href="https://globalenergymonitor.org/projects/global-oil-gas-extraction-tracker/">Global Oil and Gas Extraction Tracker</a></li>
+		<li id="menu-item-8629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8629"><a href="https://globalenergymonitor.org/projects/global-oil-infrastructure-tracker/">Global Oil Infrastructure Tracker</a></li>
+		<li id="menu-item-8099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8099"><a href="https://globalenergymonitor.org/projects/global-oil-gas-plant-tracker/">Global Oil and Gas Plant Tracker</a></li>
+		<li id="menu-item-8100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8100"><a href="https://globalenergymonitor.org/projects/global-gas-infrastructure-tracker/">Global Gas Infrastructure Tracker</a></li>
+		<li id="menu-item-8101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8101"><a href="https://globalenergymonitor.org/projects/the-gas-index/">The Gas Index</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Renewables &amp; Other Power</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8397"><a href="https://globalenergymonitor.org/projects/global-solar-power-tracker/">Global Solar Power Tracker</a></li>
+		<li id="menu-item-8396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8396"><a href="https://globalenergymonitor.org/projects/global-wind-power-tracker/">Global Wind Power Tracker</a></li>
+		<li id="menu-item-11030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11030"><a href="https://globalenergymonitor.org/projects/global-hydropower-tracker/">Global Hydropower Tracker</a></li>
+		<li id="menu-item-9548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9548"><a href="https://globalenergymonitor.org/projects/global-geothermal-power-tracker/">Global Geothermal Power Tracker</a></li>
+		<li id="menu-item-10441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10441"><a href="https://globalenergymonitor.org/projects/global-bioenergy-power-tracker/">Global Bioenergy Power Tracker</a></li>
+		<li id="menu-item-10229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10229"><a href="https://globalenergymonitor.org/projects/global-nuclear-power-tracker/">Global Nuclear Power Tracker</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Heavy Industry</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8108"><a href="https://globalenergymonitor.org/projects/global-steel-plant-tracker/">Global Steel Plant Tracker</a></li>
+		<li id="menu-item-10777" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10777"><a href="https://globalenergymonitor.org/projects/global-blast-furnace-tracker/">Global Blast Furnace Tracker</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Regional</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8798"><a href="https://globalenergymonitor.org/projects/africa-gas-tracker/">Africa Gas Tracker</a></li>
+		<li id="menu-item-8110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8110"><a href="https://globalenergymonitor.org/projects/asia-gas-tracker/">Asia Gas Tracker</a></li>
+		<li id="menu-item-8109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8109"><a href="https://globalenergymonitor.org/projects/europe-gas-tracker/">Europe Gas Tracker</a></li>
+		<li id="menu-item-8111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8111"><a href="https://globalenergymonitor.org/projects/latin-america-resource-information-hub/">Portal Energético para América Latina</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">GEM Wiki</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8112"><a href="https://globalenergymonitor.org/projects/global-energy-monitor-wiki/">Global Energy Monitor Wiki</a></li>
+	</ol>
+</li>
+</ol>
+</li>
+<li id="menu-item-8113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8113 accessible-megamenu-top-nav-item"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/?download-data" id="accessible-megamenu-1693276532703-5" role="button" aria-controls="accessible-megamenu-1693276532703-6" aria-expanded="false" tabindex="0">Download Data</a>
+<ol class="sub-nav accessible-megamenu-panel" id="accessible-megamenu-1693276532703-6" role="region" aria-hidden="true" aria-labelledby="accessible-megamenu-1693276532703-5">
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Coal &amp; Steel</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8114"><a href="https://globalenergymonitor.org/projects/global-coal-plant-tracker/download-data/">Coal Plants</a></li>
+		<li id="menu-item-8115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8115"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/download-data/">Coal Mines</a></li>
+		<li id="menu-item-8116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8116"><a href="https://globalenergymonitor.org/projects/global-coal-terminals-tracker/download-data/">Coal Terminals</a></li>
+		<li id="menu-item-8117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8117"><a href="https://globalenergymonitor.org/projects/global-coal-project-finance-tracker/download-data/">Coal Finance</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Oil &amp; Gas</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8118"><a href="https://globalenergymonitor.org/projects/global-oil-gas-extraction-tracker/download-data/">Oil and Gas Extraction</a></li>
+		<li id="menu-item-8119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8119"><a href="https://globalenergymonitor.org/projects/global-oil-infrastructure-tracker/download-data/">Oil Infrastructure</a></li>
+		<li id="menu-item-8120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8120"><a href="https://globalenergymonitor.org/projects/global-oil-gas-plant-tracker/download-data/">Oil and Gas Plants</a></li>
+		<li id="menu-item-8121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8121"><a href="https://globalenergymonitor.org/projects/global-gas-infrastructure-tracker/download-data/">Gas Infrastructure</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Renewables &amp; Other Power</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8418" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8418"><a href="https://globalenergymonitor.org/projects/global-solar-power-tracker/download-data/">Solar Farms</a></li>
+		<li id="menu-item-8417" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8417"><a href="https://globalenergymonitor.org/projects/global-wind-power-tracker/download-data/">Wind Farms</a></li>
+		<li id="menu-item-11031" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11031"><a href="https://globalenergymonitor.org/projects/global-hydropower-tracker/download-data/">Hydropower</a></li>
+		<li id="menu-item-9550" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9550"><a href="https://globalenergymonitor.org/projects/global-geothermal-power-tracker/download-data/">Geothermal Plants</a></li>
+		<li id="menu-item-10442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10442"><a href="https://globalenergymonitor.org/projects/global-bioenergy-power-tracker/download-data/">Bioenergy Plants</a></li>
+		<li id="menu-item-10231" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10231"><a href="https://globalenergymonitor.org/projects/global-nuclear-power-tracker/download-data/">Nuclear Plants</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Heavy Industry</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8122"><a href="https://globalenergymonitor.org/projects/global-steel-plant-tracker/download-data/">Steel Plants</a></li>
+		<li id="menu-item-11575" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11575"><a href="https://globalenergymonitor.org/projects/global-blast-furnace-tracker/download-data/">Blast Furnaces</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Regional</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8799" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8799"><a href="https://globalenergymonitor.org/projects/africa-gas-tracker/download-data/">Africa – Gas Infrastructure</a></li>
+		<li id="menu-item-8124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8124"><a href="https://globalenergymonitor.org/projects/asia-gas-tracker/download-data/">Asia – Gas Infrastructure</a></li>
+		<li id="menu-item-8123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8123"><a href="https://globalenergymonitor.org/projects/europe-gas-tracker/download-data/">Europe – Gas Infrastructure</a></li>
+		<li id="menu-item-8125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8125"><a href="https://globalenergymonitor.org/projects/latin-america-resource-information-hub/download-data/">Latin America – All Energy Projects</a></li>
+	</ol>
+</li>
+</ol>
+</li>
+<li id="menu-item-8150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8150 accessible-megamenu-top-nav-item"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/?news-reports" id="accessible-megamenu-1693276532712-7" role="button" aria-controls="accessible-megamenu-1693276532712-8" aria-expanded="false" tabindex="0">News &amp; Reports</a>
+<ol class="sub-nav accessible-megamenu-panel" id="accessible-megamenu-1693276532712-8" role="region" aria-hidden="true" aria-labelledby="accessible-megamenu-1693276532712-7">
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">News &amp; Reports</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8127" class="menu-item menu-item-type-post_type_archive menu-item-object-reports menu-item-8127"><a href="https://globalenergymonitor.org/news-reports/reports-briefings/">Reports &amp; Briefings</a></li>
+		<li id="menu-item-8133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8133"><a href="https://globalenergymonitor.org/news-reports/gem-in-the-news/">GEM in the News</a></li>
+		<li id="menu-item-8134" class="menu-item menu-item-type-post_type_archive menu-item-object-press-release menu-item-8134"><a href="https://globalenergymonitor.org/news-reports/press-releases/">Press Releases</a></li>
+		<li id="menu-item-8135" class="menu-item menu-item-type-post_type_archive menu-item-object-statement menu-item-8135"><a href="https://globalenergymonitor.org/news-reports/statements/">Organizational Statements</a></li>
+	</ol>
+</li>
+	<li class="accessible-megamenu-panel-group"><h2><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/#">Newsletters</a></h2>
+	<ol class="sub-menu">
+		<li id="menu-item-8128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8128"><a href="https://globalenergymonitor.org/news-reports/mailing-list/">Mailing List</a></li>
+		<li id="menu-item-8129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8129"><a href="https://globalenergymonitor.org/about/coalwire-weekly-bulletin/">CoalWire Bulletin</a></li>
+		<li id="menu-item-8130" class="menu-item menu-item-type-post_type_archive menu-item-object-coalwire menu-item-8130"><a href="https://globalenergymonitor.org/news-reports/coalwire-archive/">CoalWire Archive</a></li>
+		<li id="menu-item-8131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8131"><a href="https://globalenergymonitor.org/news-reports/inside-gas-bulletin/">Inside Gas Bulletin</a></li>
+		<li id="menu-item-8132" class="menu-item menu-item-type-post_type_archive menu-item-object-inside-gas menu-item-8132"><a href="https://globalenergymonitor.org/news-reports/inside-gas-archive/">Inside Gas Archive</a></li>
+		<li id="menu-item-8136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8136"><a href="https://globalenergymonitor.org/news-reports/media/">Media</a></li>
+	</ol>
+</li>
+</ol>
+</li>
+<li id="menu-item-8137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8137 accessible-megamenu-top-nav-item"><a href="https://twitter.com/GlobalEnergyMon" id="accessible-megamenu-1693276532714-9"><svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <span class="fab fa-twitter"></span> Font Awesome fontawesome.com --><span class="sr-only--lg">Follow GEM on Twitter</span></a></li>
+</ul></div>
+      </div>
+    </nav>
+  </div>
+
+      <div class="page-header">
+  <div class="page-header__inner">
+    <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="https://globalenergymonitor.org/">Home</a></li><li class="breadcrumb-item"><a href="https://globalenergymonitor.org/projects/">Projects</a></li><li class="breadcrumb-item active" aria-current="page">Global Coal Mine Tracker</li></ol></nav>
+    
+          
+      <picture class="project-banner--xs">
+        <source media="(max-width: 479px)" srcset="https://globalenergymonitor.org/wp-content/uploads/2020/12/dragline-surface-mining-004-450x250.jpg">
+        <source media="(min-width: 480px) and (max-width: 767px)" srcset="https://globalenergymonitor.org/wp-content/uploads/2020/12/dragline-surface-mining-004-1024x569.jpg">
+        <source media="(min-width: 768px)" srcset="https://globalenergymonitor.org/wp-content/uploads/2021/11/mine-banner.png">
+        <img src="./static/global_files/mine-banner.png" alt="An excavating machine sits next to an open pit mine">
+      </picture>
+    
+    
+    <h1 class="page-header__title">Global Coal Mine Tracker</h1>
+
+          <details class="mobile-submenu">
+        <summary class="mobile-submenu__btn">
+          <div class="summary-flex">
+            <span class="mobile-submenu__btn__label">Section Navigation</span>
+            <span class="mobile-submenu__btn__icon"></span>
+          </div>
+        </summary>
+        <div class="mobile-submenu__dropdown">
+          <a class="btn--back" href="https://globalenergymonitor.org/projects/"><svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <i class="fas fa-chevron-left"></i> Font Awesome fontawesome.com --><span class="sr-only">Back to</span> Projects</a><ul id="submenu--mobile" class="menu--sidebar"><li class="current-menu-item"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/">Interactive Energy Policy Map</a><ul class="sub-menu"><li class=" tracker-menu-item"><a href="https://globalenergymonitor.org/projects/global-coal-mine-tracker/tracker-map/">Launch Interactive Policy Map</a></li></ul></li></ul>
+        </div>
+      </details>
+      </div>
+</div>
+  </header>
+    <div class="wrap container" role="document">
+      
+      <div class="main-sidebar-wrap">
+        <main class="main" id="main" tabindex="-1">
+                 <picture class="project-banner--lg">
+    <source media="(max-width: 1199px)" srcset="https://globalenergymonitor.org/wp-content/uploads/2021/11/mine-banner-1024x319.png">
+    <source media="(min-width: 1200px)" srcset="https://globalenergymonitor.org/wp-content/uploads/2021/11/mine-banner.png">
+    <img src="./static/global_files/mine-banner.png" alt="">
+  </picture>
+
+  
+  <span class="page-header__title page-header__title--project-lg" aria-hidden="true">Steel Decarbonization Policy - Methodology</span>
+
+  <h3>Architecture</h3>
+  <p>Global Energy Monitor’s Interactive Steel Decarbonization Tool uses a two-level system for organizing information, consisting of a system map and wiki pages with further information. The system map visualizes 20 structural challenges and opportunities (i.e. barriers) to decarbonization and the reinforcing relationships between them. It includes information on each of the challenges and opportunities, policy proposals, and nature of the relationships. A Wiki page for each one is created within GEM.wiki, and contains more detailed, footnoted information, such as context about the challenges and opportunities, their role in the steel decarbonization, potential policies to address them, and relevant case studies and examples.</p>
+
+  <h3>Research Process</h3>
+  <p>The challenges and opportunities and their relationships were identified from various research studies on steel and industry decarbonization, by organizations such as the International Energy Agency (IEA), United Nations Environmental Program (UNEP), Mission Possible Partnership, Net Zero Steel, the World Steel Organization, Breakthrough Energy, the OECD, Energy Transitions Commission, International Energy Outlook, Global Efficiency Intelligence, McKinsey & Company, Climate Bonds Initiative, TransitionZero, Global Energy Monitor, national and regional government agencies, and more. Information was then vetted against additional sources, including interviews with industry experts. Case studies and examples in the Wiki pages were gathered using company announcements, press releases, and data from the Global Energy Monitor’s Global Steel Plant Tracker (GSPT) and Global Blast Furnace Tracker (GBFT), as well as the Green Steel Tracker.</p>
+
+  <h3>Assumptions</h3>
+  <p>This model includes all large challenges and opportunities identified through the research process. While all are included in the system map, they may not all be relevant or applicable in every context. There may also be additional factors and relationships to consider. The model serves as a starting point for understanding and developing steel decarbonization policies, and should be re-evaluated on a contextual basis.<br><br>
+
+  The analysis is based on two assumptions, which were deduced through the research process and the interviews conducted. No steel company can or will decarbonize if:
+  <ul>
+     <li>
+  The production of green or low-emissions steel is (in the long-term) less profitable than the current method of production, except if they have to switch due to wider regulatory requirements. 
+    </li>
+    <li>
+    A transition is so expensive that it will put the company at risk of going bankrupt.
+  </li></ul><br>
+
+    While these assumptions should be re-evaluated within local contexts, they are foundational to the model and highlight the importance of acknowledging financial, technological, and political constraints.
+
+  <h3>Wiki Pages</h3>
+
+  <p>For each structural barrier, a Wiki page is created on Global Energy Monitor’s GEM.wiki. Wiki pages provide a repository for the background information on steel decarbonization, challenges and opportunities, potential policy actions, examples and case studies, and additional resources about the topic. Under standard Wiki convention, all information is linked to a published reference, such as a news article, company or government report, or study in the field. In order to ensure data integrity in the open-access Wiki environment, Global Energy Monitor researchers review all edits of project Wiki pages.</p>
+
+  <h3>Mapping</h3>
+
+   <p>The tool was built using Flask in Python along with Javascript and HTML. The initial network was built using pyvis in Python. The interface is managed by Flask and the interactive changes are carried out by vis.JS. All text boxes 
+   and dynamic re-positioning in handled via customized code in Python.</p><br><br>
+
+   <i> This tool is published under a Creative Commons Attribution 4.0 International License. The original model underlying this interactive tool, first published in August 2023, is based on the paper “Breaking the Barriers to Steel Decarbonization - A Policy Guide” by Nele Merholz (April 2023). Parts of the original web design and content visualization were done by Sohit Miglani. </i>
+
+
+<hr class="wp-block-separator has-css-opacity is-style-wide">
+
+
+<p></p>
+
+          </main>
+             <aside class="sidebar">
+            <a class="btn--back" href="https://globalenergymonitor.org/projects/"><svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <i class="fas fa-chevron-left"></i> Font Awesome fontawesome.com --><span class="sr-only">Back to</span> Projects</a><ul id="menu--sidebar" class="menu--sidebar"><li class="current-menu-item"><a href="/">Steel Decarbonization Policy Tool</a><ul class="sub-menu"><li class=" tracker-menu-item"><a href="./map">Launch Interactive Policy Tool</a></li><li class=" tracker-menu-item"><a href="./methodology"><b>Methodology</b></a></li> <li class=" tracker-menu-item"><a href="./methodology">Frequently Asked Questions</a></li></ul></li></ul>
+          </aside>
+
+              </div>
+    </div>
+        <footer role="contentinfo">
+  <div class="container">
+    <div class="footer-meta">
+      
+      <a rel="home" href="https://globalenergymonitor.org/">
+        <img src="./static/global_files/logo-white_0ac25a5a.svg" alt="Global Energy Monitor" width="195" height="86">
+      </a>
+
+      
+      <small class="copyright">
+        © 2023 Global Energy Monitor<br>All Rights Reserved
+      </small>
+
+      
+      <address>440 N Barranca Ave #2878
+Covina, CA 91723</address>
+    </div>
+
+    
+    <nav class="menu--footer__container" aria-label="Footer Navigation"><ul id="menu-footer-main-navigation" class="menu--footer"><li id="menu-item-10643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10643"><a href="https://globalenergymonitor.org/about/">About</a></li>
+<li id="menu-item-10648" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-10648"><a href="https://globalenergymonitor.org/projects/">Projects</a></li>
+<li id="menu-item-10645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10645"><a href="https://globalenergymonitor.org/about/jobs/">Jobs</a></li>
+<li id="menu-item-10647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10647"><a href="https://globalenergymonitor.org/news-reports/">News &amp; Reports</a></li>
+<li id="menu-item-10650" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10650"><a href="https://globalenergymonitor.org/news-reports/mailing-list/">Mailing List</a></li>
+<li id="menu-item-10644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10644"><a href="https://globalenergymonitor.org/about/contact/">Contact</a></li>
+</ul></nav>
+
+    
+    <nav class="menu--meta__container" aria-label="Privacy and Copyright Navigation"><ul id="menu-footer-meta-navigation" class="menu--meta"><li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-125"><a rel="privacy-policy" href="https://globalenergymonitor.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-1978" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1978"><a href="https://globalenergymonitor.org/creative-commons-public-license/">Creative Commons License</a></li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://globalenergymonitor.org/site-credits/">Site Credits</a></li>
+</ul></nav>
+  </div>
+</footer>
+<div class="menu--primary__overlay" aria-hidden="true"></div>
+<span class="breakpoint-check"></span>
+<div class="modal micromodal-slide" id="micromodal" aria-hidden="true">
+  <div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+    <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="micromodal-title">
+      <header class="modal__header">
+        <h3 class="modal__title" id="micromodal-title">
+          Modal
+        </h3>
+        <button class="modal__close" aria-label="Close modal" data-micromodal-close=""><span class="sr-only">Close</span></button>
+      </header>
+      <div class="modal__content" id="micromodal-content">
+        <p>
+          Modal content
+        </p>
+      </div>
+    </div>
+  </div>
+</div>    <style id="core-block-supports-inline-css" type="text/css">
+.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}
+</style>
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-10868742103" data-load-time="1693276532561" height="0" width="0" style="display: none; visibility: hidden;" src="./static/global_files/10868742103.html"></iframe><script type="text/javascript" id="give-donation-summary-script-frontend-js-extra">
+/* <![CDATA[ */
+var GiveDonationSummaryData = {"currencyPrecisionLookup":{"USD":2,"EUR":2,"GBP":2,"AUD":2,"BRL":2,"CAD":2,"CZK":2,"DKK":2,"HKD":2,"HUF":2,"ILS":2,"JPY":0,"MYR":2,"MXN":2,"MAD":2,"NZD":2,"NOK":2,"PHP":2,"PLN":2,"SGD":2,"KRW":0,"ZAR":2,"SEK":2,"CHF":2,"TWD":2,"THB":2,"INR":2,"TRY":2,"IRR":2,"RUB":2,"AED":2,"AMD":2,"ANG":2,"ARS":2,"AWG":2,"BAM":2,"BDT":2,"BHD":3,"BMD":2,"BND":2,"BOB":2,"BSD":2,"BWP":2,"BZD":2,"CLP":0,"CNY":2,"COP":2,"CRC":2,"CUC":2,"CUP":2,"DOP":2,"EGP":2,"GIP":2,"GTQ":2,"HNL":2,"HRK":2,"IDR":2,"ISK":0,"JMD":2,"JOD":2,"KES":2,"KWD":2,"KYD":2,"MKD":2,"NPR":2,"OMR":3,"PEN":2,"PKR":2,"RON":2,"SAR":2,"SZL":2,"TOP":2,"TZS":2,"UAH":2,"UYU":2,"VEF":2,"XCD":2,"AFN":2,"ALL":2,"AOA":2,"AZN":2,"BBD":2,"BGN":2,"BIF":0,"BTC":8,"BTN":1,"BYR":2,"BYN":2,"CDF":2,"CVE":2,"DJF":0,"DZD":2,"ERN":2,"ETB":2,"FJD":2,"FKP":2,"GEL":2,"GGP":2,"GHS":2,"GMD":2,"GNF":0,"GYD":2,"HTG":2,"IMP":2,"IQD":2,"IRT":2,"JEP":2,"KGS":2,"KHR":0,"KMF":2,"KPW":0,"KZT":2,"LAK":0,"LBP":2,"LKR":0,"LRD":2,"LSL":2,"LYD":3,"MDL":2,"MGA":0,"MMK":2,"MNT":2,"MOP":2,"MRO":2,"MUR":2,"MVR":1,"MWK":2,"MZN":0,"NAD":2,"NGN":2,"NIO":2,"PAB":2,"PGK":2,"PRB":2,"PYG":2,"QAR":2,"RSD":2,"RWF":2,"SBD":2,"SCR":2,"SDG":2,"SHP":2,"SLL":2,"SOS":2,"SRD":2,"SSP":2,"STD":2,"SYP":2,"TJS":2,"TMT":2,"TND":3,"TTD":2,"UGX":2,"UZS":2,"VND":1,"VUV":0,"WST":2,"XAF":2,"XOF":2,"XPF":2,"YER":2,"ZMW":2},"recurringLabelLookup":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./static/global_files/give-donation-summary.js" id="give-donation-summary-script-frontend-js"></script>
+<script type="text/javascript" src="./static/global_files/core.min.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="./static/global_files/datepicker.min.js" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" id="jquery-ui-datepicker-js-after">
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-extra">
+/* <![CDATA[ */
+var gforms_recaptcha_recaptcha_strings = {"site_key":"6LeTBbsmAAAAANhs-025pBTMyWwbCLBoUkw9AVBm","ajaxurl":"https:\/\/globalenergymonitor.org\/wp-admin\/admin-ajax.php","nonce":"b84569d580"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./static/global_files/api.js" id="gforms_recaptcha_recaptcha-js"></script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-after">
+(function($){grecaptcha.ready(function(){$('.grecaptcha-badge').css('visibility','hidden');});})(jQuery);
+</script>
+<script type="text/javascript" src="./static/global_files/jquery-accessibleMegaMenu.js" id="accessible-mega-menu-js"></script>
+<script type="text/javascript" src="./static/global_files/main_b5f57e29.js" id="sage/main.js-js"></script>
+<script type="text/javascript" id="gt_widget_script_49247466-js-before">
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['49247466'] = {"default_language":"en","languages":["zh-CN","en","es"],"url_structure":"sub_directory","native_language_names":1,"wrapper_selector":"#gt-wrapper-49247466","horizontal_position":"inline","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+</script><script src="./static/global_files/ln.js" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/projects/global-coal-mine-tracker/" data-gt-orig-domain="globalenergymonitor.org" data-gt-widget-id="49247466" defer=""></script>  
+
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-11167283655" data-load-time="1693276532813" height="0" width="0" style="display: none; visibility: hidden;" src="./static/global_files/11167283655.html"></iframe><iframe name="__privateStripeMetricsController1620" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="./static/global_files/m-outer-93afeeb17bc37e711759584dbfc50d47.html" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden; visibility: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./static/global_files/anchor.html" width="256" height="60" role="presentation" name="a-hz8w3dzc93kh" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./static/global_files/saved_resource.html"></iframe></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
