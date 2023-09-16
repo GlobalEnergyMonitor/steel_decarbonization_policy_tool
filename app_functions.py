@@ -7,13 +7,13 @@ from pyvis.network import Network
 import copy
 
 options = {
+    "autoResize": True,
+    "height": 600,
+    "width": 700,
     "configure": {
         "enabled": True,
         "filter": [],
         "showButton": False,
-    },
-    "manipulation":{
-        "enabled": True,
     },
     "nodes":{
         "margin": 10,
@@ -98,7 +98,7 @@ def generate_new_map(nodes_to_remove, options):
 
     texts = pd.read_csv('barrier_texts.txt', sep='<separator>', header=None)
     edge_texts = pd.read_csv('edges.txt', sep='<separator>', header=None)
-    net = Network(directed=True, height="100%", width="100%")
+    net = Network(directed=True, notebook=True)
     for i in list(set(list(got_df['Source']) + list(got_df['Target']))):
         net.add_node(i)
     for i in range(len(got_df)):
@@ -119,12 +119,12 @@ def generate_new_map(nodes_to_remove, options):
     out = circle_points(525,20-len(nodes_to_remove))
 
     for node in net.get_nodes():
-        net.get_node(node)['font']= "20px 'Noto-Sans' white"
+        net.get_node(node)['font']= "20px arial white"
         if str(node) == 'Steel companies reinvest in emissions-intensive steelmaking':
             net.get_node(node)['x']=0
             net.get_node(node)['y']=0
             net.get_node(node)['color']= '#FB9015'
-            net.get_node(node)['font']= "30px 'Noto-Sans' white"
+            net.get_node(node)['font']= "30px arial white"
             net.get_node(node)['label']= 'Steel companies\n reinvest in\n emissions-intensive\n steelmaking'
 
         elif str(node) == 'Customers':
@@ -132,7 +132,7 @@ def generate_new_map(nodes_to_remove, options):
             net.get_node(node)['y']=-250
             net.get_node(node)['color']= '#85d6d7'
             net.get_node(node)['size']= 60
-            net.get_node(node)['font']= "24px 'Noto-Sans' white"
+            net.get_node(node)['font']= "24px arial white"
             net.get_node(node)['label']= ' \n '.join(textwrap.wrap(str(node), width = 15))
             
         elif str(node) == 'Investors':
@@ -140,7 +140,7 @@ def generate_new_map(nodes_to_remove, options):
             net.get_node(node)['y']=250
             net.get_node(node)['color']= '#85d6d7'
             net.get_node(node)['size']= 60
-            net.get_node(node)['font']= "24px 'Noto-Sans' white"
+            net.get_node(node)['font']= "24px arial white"
             net.get_node(node)['label']= ' \n '.join(textwrap.wrap(str(node), width = 15))
 
         elif str(node) == 'Civil Society':
@@ -148,7 +148,7 @@ def generate_new_map(nodes_to_remove, options):
             net.get_node(node)['y']=0
             net.get_node(node)['color']= '#85d6d7'
             net.get_node(node)['size']= 60
-            net.get_node(node)['font']= "24px 'Noto-Sans' white"
+            net.get_node(node)['font']= "24px arial white"
             net.get_node(node)['label']= ' \n '.join(textwrap.wrap(str(node), width = 15))
 
         elif str(node) == 'Regulators':
@@ -156,7 +156,7 @@ def generate_new_map(nodes_to_remove, options):
             net.get_node(node)['y']=0
             net.get_node(node)['color']= '#85d6d7'
             net.get_node(node)['size']= 60
-            net.get_node(node)['font']= "24px 'Noto-Sans' white"
+            net.get_node(node)['font']= "24px arial white"
             net.get_node(node)['label']= ' \n '.join(textwrap.wrap(str(node), width = 15))
 
         else:
@@ -177,17 +177,17 @@ def generate_new_map(nodes_to_remove, options):
         new = texts[texts[0] == str(node)]
         if len(new) == 0:
             continue
-        title = ' \n '.join(textwrap.wrap(list(new[1])[0], width = 100))
-        net.get_node(node)['title']=title
+        #title = ' \n '.join(textwrap.wrap(list(new[1])[0], width = 100))
+        #net.get_node(node)['title'] = '''<button type="submit" name='submit_button>Learn More</button>'''
 
-    net.add_nodes([1,2,3],   x=[-200, 0, 200],
+    net.add_nodes([1,2,3],   x=[-300, 0, 300],
                          y=[700, 700, 700],
-                         label=[ 'Reinforced Outcomes', 'Stakeholders', 'Structural Outcomes'],
+                         label=[ 'Reinforced Outcomes', 'Stakeholders', 'Challenges and Opportunities'],
                          color=['#FB9015', '#85d6d7', '#792424'],)
 
     for node in net.get_nodes():
-        if net.get_node(node)['label'] in ['Reinforced Outcomes', 'Stakeholders', 'Structural Outcomes']:
-            net.get_node(node)['font']= "24px 'Noto-Sans' black"
+        if net.get_node(node)['label'] in ['Reinforced Outcomes', 'Stakeholders', 'Challenges and Opportunities']:
+            net.get_node(node)['font']= "24px arial black"
             net.get_node(node)['fixed']= True
 
     net.options = options

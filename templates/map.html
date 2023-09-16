@@ -5,10 +5,15 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-
+  <link rel="icon" href="https://globalenergymonitor.org/wp-content/uploads/2020/12/cropped-site-icon-32x32.png" sizes="32x32" />
   <script src="lib/bindings/utils.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/vis-network/peer/umd/vis-network.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/vis-network/styles/vis-network.min.css" rel="stylesheet"> -->
+  
   <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -33,6 +38,7 @@
                  border: 1px solid lightgray;
                  position: relative;
                  float: left;
+  
 }
 
 .svg-inline--fa {
@@ -709,6 +715,7 @@
 						window['gtag'] = __gtagTracker;
 					})();
 									}
+                
 			</script>
 				<!-- / Google Analytics by MonsterInsights -->
 		<link rel="stylesheet" id="wp-block-library-css" href="./static/global_files/style.min.css" type="text/css" media="all">
@@ -1000,17 +1007,15 @@ var SF_LDATA = {"ajax_url":"https:\/\/globalenergymonitor.org\/wp-admin\/admin-a
   
   <span class="page-header__title page-header__title--project-lg" aria-hidden="true">Steel Decarbonization Policy Tool</span><hr style='color: #84d7d6'><br>
 
-<h2>System mapping</h2><hr style='color: black; width: 250px'><br><br>
-        
-        <div class="card" style="width: 100%">
-            <div id="mynetwork" class="card-body"></div>
-        </div>
+<h2>System mapping</h2><hr style='color: black; width: 250px'/> 
 
-        
-        
+<i>Hover over the bubbles to view relationships (arrows) between 'Reinforced Outcomes', 'Stakeholders', and 'Challenges and Opportunities'. Hover over any given arrow to see more detailed information about the relationship it depicts. Detailed descriptions of each challenge and opportunity are provided below. To view relationships for a select set of challenges and opportunities, use the menu on the right side.</i>
+
+  <div class="card" style="width: 100%">
+      <div id="mynetwork" class="card-body"></div>
+  </div>
 
         <script type="text/javascript">
-
               // initialize global variables.
               var edges;
               var nodes;
@@ -1069,23 +1074,24 @@ var SF_LDATA = {"ajax_url":"https:\/\/globalenergymonitor.org\/wp-admin\/admin-a
         <i> To learn more about the importance and possibilities of decarbonizing the iron and steel industry, click <a href='https://www.gem.wiki/Introduction_to_steel_decarbonization'>here</a>.</i><br>
 
         <p>To reach the 1.5°C pathway, we need to reduce the challenges (i.e., weaken the barriers) and the interactions that perpetuate emissions-intensive steel production. Additionally, we need to strengthen the factors that allow for a green steel market to grow. We can use the system map to understand these interactions and identify direct and indirect causes for emissions-intensive steel reinvestments, as well as enabling conditions for low-emissions production. </p>
-
-        <p>In the first step, we can focus on those challenges with a direct relationship to companies’ decision-making processes (i.e., those that directly reinforce emissions-intensive investments). These are the direct causes, and addressing them can help us strengthen the necessary enabling environment (e.g., competitiveness, energy/ technology/ infrastructure/ information availability, financial resources).They themselves are caused and/or reinforced by indirect causes (e.g., overcapacity, excessive government intervention, definitions and standards, etc.). Addressing these challenges can help to reduce root causes or promote decarbonization through additional policies. </p>
-
-        <p> <i>Example:</i> The access to financial resources (for low-emissions steel companies) can be addressed directly through policies. It can also be promoted indirectly by improving steel companies’ “profit margins,” by reducing “overcapacity,” for example, which itself can be done through policies to decrease “government intervention” and improve “international cooperation.” You can identify policies and opportunities targeted at addressing each challenge when clicking on the Challenges and Opportunities in the list below, or on the respective GEM.wiki pages. Developing a comprehensive set of policies requires a contextual understanding of the steel fleet, economy, resources and infrastructure, as well as stakeholders and their needs. Ensuring effectiveness of policies also requires systemic thinking and strategies for the near-, medium-, and long term, on the local, national, and global levels, and involving all relevant stakeholders. </p>
+        <p>In the first step, we can focus on those challenges with a direct relationship to companies’ decision-making processes (i.e., those that directly reinforce emissions-intensive investments). These are the direct causes, and addressing them can help us strengthen the necessary enabling environment (e.g., competitiveness, energy/ technology/ infrastructure/ information availability, financial resources). They themselves are caused and/or reinforced by indirect causes (e.g., overcapacity, excessive government intervention, definitions and standards, etc.). Addressing these challenges can help to reduce root causes or promote decarbonization through additional policies. <br/><br/>
+        You can identify policies and opportunities targeted at addressing each challenge when clicking on the Challenges and Opportunities in the list below, or on the respective GEM.wiki pages. Developing a comprehensive set of policies requires a contextual understanding of the steel fleet, economy, resources and infrastructure, as well as stakeholders and their needs. Ensuring effectiveness of policies also requires systemic thinking and strategies for the near-, medium-, and long term, on the local, national, and global levels, and involving all relevant stakeholders. </p>
+        <p style='border-width=1px; border-radius: 5px; padding: 20px'> <b>Example:</b> The access to financial resources (for low-emissions steel companies) can be addressed directly through policies. It can also be promoted indirectly by improving steel companies’ “profit margins,” by reducing “overcapacity,” for example, which itself can be done through policies to decrease “government intervention” and improve “international cooperation.” </p>
 
 
   <hr style='color: #84d7d6'>
   <h2><b> Challenges and Opportunities </b></h2>
   <hr style='color: black; width: 350px'>
 
-  Click on each challenge to learn more. <br><br>
+  For detailed information on each of the challenges and opportunities, visit the GEM Wiki page
+  <a href="'https://www.gem.wiki/Introduction_to_steel_decarbonization#The_challenges_and_opportunities_toward_steel_decarbonization">“Introduction to steel decarbonization”</a> (see section “See challenges and opportunities toward steel decarbonization”).
+  <br><br>
 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary><h3>Growing Steel Demand</h3></summary>
-Societies around the world continue to develop and generate economic growth, leading to the increasing construction of large cities, infrastructure, technologies, and consumer goods. The demand for steel is, therefore, projected to continue growing by approximately a third by 2050. If no low-emissions processes are adopted, we will see a similar trend for resulting greenhouse gas emissions. Even if we implement and scale new technologies quickly, we thus cannot stop emissions from growing without addressing the growing steel demand.<br><br>
-
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Growing_steel_demand'> here</a>.<br><br>
+
+Societies around the world continue to develop and generate economic growth, leading to the increasing construction of large cities, infrastructure, technologies, and consumer goods. The demand for steel is, therefore, projected to continue growing by approximately a third by 2050. If no low-emissions processes are adopted, we will see a similar trend for resulting greenhouse gas emissions. Even if we implement and scale new technologies quickly, we thus cannot stop emissions from growing without addressing the growing steel demand.<br><br>
 
 <ul><b>Policy targets to reduce overall steel demand:</b><br>
 <li>Use financial instruments to increase steel prices, e.g., carbon pricing, taxes to account for externalities, etc.</li>
@@ -1099,17 +1105,18 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <li>Reduce waste in steel production to improve yields, e.g., improved manufacturing techniques, use of digitalization to increase performance, implementation of efficiency-promoting technologies, etc. (IEA, 2020; Swalec & Shearer, 2021). This requires collaboration with steel companies.</li>
 <li>Incentivize manufacturers to reduce steel waste during product manufacturing, e.g., awareness and capacity-building, implementation of efficiency-promoting technologies (IEA, 2020). This requires collaboration with steel consumers.</li>
 <li>Use standards and regulations to reduce lifecycle emissions and improve product performance, e.g., mandatory efficiency and appliance standards (Bataille, 2019; Energy Transitions Commission, 2021).</li>
-<li>Create and implement efficiency labels and certifications to promote low-emissions product demand.</li>
+<li>Create and implement efficiency labels and certifications to promote low-emissions product demand.</li></ul>
 
 
 </details>
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
+
 <h3>Green Energy and Resource Availability</h3></summary>
-To successfully transition to low-emissions steel production, companies need access to different low-emissions energy sources and raw materials. Depending on the production routes chosen, both the iron- and the steelmaking processes can require large amounts of natural gas, renewable energy, green hydrogen, biomass, high-quality iron ore, and scrap for their low-emissions production. These resources also need to be relatively cheap to make the transition and production affordable. We currently see the demand for such resources increasing across industries, leading to supply shortages and higher prices.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Green_energy_and_resource_availability'> here</a>.<br><br>
 
+To successfully transition to low-emissions steel production, companies need access to different low-emissions energy sources and raw materials. Depending on the production routes chosen, both the iron- and the steelmaking processes can require large amounts of natural gas, renewable energy, green hydrogen, biomass, high-quality iron ore, and scrap for their low-emissions production. These resources also need to be relatively cheap to make the transition and production affordable. We currently see the demand for such resources increasing across industries, leading to supply shortages and higher prices.<br><br>
 
 <ul><b>Policy targets to increase the availability and accessibility of green energy and raw materials:</b>
 <li>Increase the availability of low-emissions energy sources and decarbonize the power sector through investments into green energy systems, international trade and cooperation, public-private partnerships, etc. (EIA, 2022; Net Zero Steel, 2021).</li>
@@ -1125,11 +1132,12 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Steel Recycling Capacity</h3></summary>
+
+To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Steel_recycling_capacity'>here</a>.<br><br>
+
 A major opportunity to reduce emissions is through recycling (i.e. secondary steel production), when previously used steel (i.e. “scrap”) is reclaimed and remelted, instead of producing steel from raw materials (i.e. primary steel production) through the highly carbon-intensive ironmaking process. Steel recycling can reduce 1.5 metric tonnes of CO2 per metric tonne of scrap used in steel production, and also save other resources such as coal, limestone, and energy. <br><br>
 
 Scrap availability depends on a system of efficient recollection, separation and sorting of steel at the end of a product's lifetime. Scrap can either be re-melted and retrofitted to become a new product, or it can be reused directly depending on its quality. The steel industry has been limited by the lack of holistic and efficient scrap collection and sorting systems - including a lack of documentation and labeling of products - to create a circular economy, preventing closed loop recycling. Without such a system, high-quality steel scrap is frequently being remelted together with low-quality or even contaminated scrap, resulting in an end product characterized by low quality.<br><br>
-
-To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Steel_recycling_capacity'>here</a>.<br><br>
 
 <ul><b>Policy targets to increase steel recycling rates:</b>
 <li>Incentivize the direct reuse of steel products without remelting, such as recovering and reusing steel beams or pipelines for new purposes. This may require the implementation of quality controls through documentation and labeling of materials (IEA, 2020).</li>
@@ -1145,9 +1153,10 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Profit Margins</h3></summary>
-Producing green or low-emissions steel generally requires different resources, new technologies, and infrastructure, which requires significant investments. Steel producers generally operate with low profit margins, making the internal financing of such endeavors rather difficult. This is exacerbated by continued global steel overcapacity. To afford such investments, owners are often dependent on external financing, loans, and/or subsidies for new steel plants. <br><br>At the same time, many owners are still paying back their loans from current steel plants and will, therefore, find it hard to get additional financial resources. While low-emissions steel demand is growing, it is currently too low to provide market security for many steel plant operators. It creates a feedback loop, in which little demand for low-emissions steel leads to little production, keeping prices of low-emissions steel high, resulting in a reinforced low demand for the low-emissions product. Low profit margins mean that there is a higher dependency for external funding to invest in decarbonization, making it a challenge to their green transition.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Profit_margins'>here</a>.<br><br>
+
+Producing green or low-emissions steel generally requires different resources, new technologies, and infrastructure, which requires significant investments. Steel producers generally operate with low profit margins, making the internal financing of such endeavors rather difficult. This is exacerbated by continued global steel overcapacity. To afford such investments, owners are often dependent on external financing, loans, and/or subsidies for new steel plants. <br><br>At the same time, many owners are still paying back their loans from current steel plants and will, therefore, find it hard to get additional financial resources. While low-emissions steel demand is growing, it is currently too low to provide market security for many steel plant operators. It creates a feedback loop, in which little demand for low-emissions steel leads to little production, keeping prices of low-emissions steel high, resulting in a reinforced low demand for the low-emissions product. Low profit margins mean that there is a higher dependency for external funding to invest in decarbonization, making it a challenge to their green transition.<br><br>
 
 <ul><b>Policy targets to increase capital availability: </b>
 <li>Provide resources and government funding for relevant R&D projects, the construction of low-emissions steel plants (and energy) infrastructure, the refurbishment with low-emissions and energy-efficiency technologies, or to cover increasing costs from renewable energy purchases. This could include grants, loan guarantees, subsidies, public expenditures, tax credits and deductions, or agreements with financial institutions and investors, including through Public Private Partnerships (PPPs).</li></ul>
@@ -1165,30 +1174,35 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Market Security for Low-Emissions Steel</h3></summary>
-A lack of demand and market security for low-emissions steel results in low levels of production. With little supply and without the benefits of the economies of scale, low-emissions and green steel prices increase, making it more difficult to find buyers and remain profitable. Without customers that are interested in buying low-emissions steel, or that are willing to pay for the higher prices associated with it, a transition may result in declining profitability for steel producers. This makes a decision towards sustainable production less likely. The lack of market security could also make it impossible to fund a green steel venture in the first place: Because the cost of construction for new plants is very high, most steel companies are dependent on significant amounts of capital from investors. They, however, are unlikely to invest in low-emissions steel if it is unsure that such projects become profitable.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Market_security_for_low-emissions_steel'> here</a>.<br><br>
 
-<ul><b>Policy targets to promote low-emissions steel competitiveness:</b>
+A lack of demand and market security for low-emissions steel results in low levels of production. With little supply and without the benefits of the economies of scale, low-emissions and green steel prices increase, making it more difficult to find buyers and remain profitable. Without customers that are interested in buying low-emissions steel, or that are willing to pay for the higher prices associated with it, a transition may result in declining profitability for steel producers. This makes a decision towards sustainable production less likely. The lack of market security could also make it impossible to fund a green steel venture in the first place: Because the cost of construction for new plants is very high, most steel companies are dependent on significant amounts of capital from investors. They, however, are unlikely to invest in low-emissions steel if it is unsure that such projects become profitable.<br><br>
+
+<b>Policy targets to promote low-emissions steel competitiveness:</b>
+<ul>
 <li>Implement carbon or lifecycle emission regulations, and carbon taxes or trading schemes to increase the price of carbon-intensive steel (IEA, 2020).</li>
 <li>Cover the initial green premium of low-emissions steel to reduce prices for steel consumers and thus increase demand (Energy Transitions Commission, 2021).</li>
 <li>Create low-emissions steel above-market price guarantees, similar to feed-in tariffs.</li></ul>
 
-<ul><b>Policy targets to increase low-emissions steel demand: </b>
+<b>Policy targets to increase low-emissions steel demand: </b>
+<ul>
 <li>Use public procurement policies, e.g., through guarantees to purchase low-emissions steel for government-funded construction projects. Alternatively, this could include the setting of benchmarks for emission intensities of construction materials (Energy Transitions Commission, 2021; IEA, 2020; Mission Possible Partnership, 2022).</li>
 <li>Create and widely implement certifications and labeling of low-emissions steel to increase access to funding for and promote consumer choices towards low-emissions steel.</li>
 <li>Require or incentivize large steel consumers to decarbonize their value chains.</li></ul>
 
-<ul><b>Policy targets to increase investment security:</b>
+<b>Policy targets to increase investment security:</b>
+<ul>
 <li>Provide access to funding for low-emissions steel projects and reduce or eliminate future investments in BF-BOF steelmaking. This should be done in collaboration with financial stakeholders to ensure consistency and effectiveness. Instruments could include concessional and subordinated loans, low-interest loan guarantees, reimbursable advances, equity investments, debt guarantees, subsidies, and tax incentives such as rebates, tax credits, or tax deductions (IEA, 2020; Mission Possible Partnership, n.d.).</li>
 <li>Collaborate with public and private investors to develop public-private partnerships and blended finance mechanisms to reduce investment risks (IEA, 2020).</li>
-<li>Create guaranteed markets, contracts for differences, priority market access, and minimum content shares to reduce investment risks  (Bataille, 2019).</li>
-<li> <ul><b>Incentivize and create demand signals that provide market and investment security (Energy Transitions Commission, 2021):</b>
+<li>Create guaranteed markets, contracts for differences, priority market access, and minimum content shares to reduce investment risks  (Bataille, 2019).</li></ul>
+
+<b>Incentivize and create demand signals that provide market and investment security (Energy Transitions Commission, 2021):</b>
+<ul>
 <li>Exhort the creation of bilateral offtake agreements between large steel consumers and producers to provide direct demand signals.</li>
 <li>Incentivize volume-specific public future purchase commitments for low-emissions steel. They can be pooled and may or may not be directed towards a specific producer.</li>
 <li>Incentivize or require large steel consumers to decarbonize (e.g., through their supply chains) to create indirect demand signals. Organizations and investors can also make decarbonization commitments to promote such demand signals.</li>
-
-</li></ul>
+</ul>
 
 
 
@@ -1197,10 +1211,10 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Competitiveness of Low-Emissions Steel</h3></summary>
-It is estimated that the initial green premium associated with low-emissions ironmaking is between 15-40% of the original production cost. Because this additional cost exceeds many steel companies’ profit margins, such endeavor is only possible if they can sell the low-emissions steel at higher prices. Within such a competitive globalized market, this will put producers at risk, as they will be competing with cheaper carbon-intensive steel. The combination of market insecurity and low competitiveness creates a “first-movers disadvantage”. If manufacturers are unsure if they can sell the low-emission steel for a higher price, they will be unlikely to invest in low-emissions steel production, delaying the transition.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Competitiveness_of_low-emissions_steel'>here</a>.<br><br>
 
+It is estimated that the initial green premium associated with low-emissions ironmaking is between 15-40% of the original production cost. Because this additional cost exceeds many steel companies’ profit margins, such endeavor is only possible if they can sell the low-emissions steel at higher prices. Within such a competitive globalized market, this will put producers at risk, as they will be competing with cheaper carbon-intensive steel. The combination of market insecurity and low competitiveness creates a “first-movers disadvantage”. If manufacturers are unsure if they can sell the low-emission steel for a higher price, they will be unlikely to invest in low-emissions steel production, delaying the transition.<br><br>
 
 <ul><b>Policy targets to reduce the cost of producing low-emissions steel:</b>
 <li>Ensure the availability of competitively-priced low-emissions energy through greater investments into green energy systems (IEA, 2020).</li>
@@ -1223,9 +1237,10 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Excessive Government Intervention</h3></summary>
-For many decades, governments around the world have intervened in the steel industry to ensure their country has large amounts of steel capacity. Such interventions include plant ownership, the provision of low-interest loans, grants, tax benefits, and excessive subsidies. Even though this effectively caused the growth of steel capacity, the growth was not market-based and can create unnatural advantages for inefficient technologies like higher emissions and energy intensive steelmaking capacity. Therefore, the global supply now significantly exceeds the global demand, a phenomenon called “overcapacity”. With a current global overcapacity of around 25% and growing, the average steel plant is operating at a level of production lower than needed to avoid economic losses. Additionally, government intervention makes economic incentives and regulations less effective.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Excessive_government_intervention'>here</a>.<br><br>
+
+For many decades, governments around the world have intervened in the steel industry to ensure their country has large amounts of steel capacity. Such interventions include plant ownership, the provision of low-interest loans, grants, tax benefits, and excessive subsidies. Even though this effectively caused the growth of steel capacity, the growth was not market-based and can create unnatural advantages for inefficient technologies like higher emissions and energy intensive steelmaking capacity. Therefore, the global supply now significantly exceeds the global demand, a phenomenon called “overcapacity”. With a current global overcapacity of around 25% and growing, the average steel plant is operating at a level of production lower than needed to avoid economic losses. Additionally, government intervention makes economic incentives and regulations less effective.<br><br>
 
 <ul><b>Policy targets to reduce government intervention and excess capacity:</b>
 <li>Analyze national steel capacity, steel demand, and government interventions in the steel market to identify overcapacity, inefficient plants, and nonconstructive government practices (Price et al., 2013).</li>
@@ -1243,9 +1258,10 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Overcapacity</h3></summary>
-The global steel supply now significantly exceeds the global demand, a phenomenon called “overcapacity”. Overcapacity causes economic losses of steel plants, international trade friction and economic inefficiency, as excess capacity causes the dumping of very cheap steel in other markets, making it more difficult for local plants to compete. The reduced profitability makes it more difficult for plant owners to afford new investments in low-emissions steel infrastructure and technologies, highlighting the importance of closing down unused and high-emission plants to reduce overcapacity and unnecessary emissions. While overcapacity may prove to be a challenge to steel decarbonization, it also provides an opportunity to support the transition as higher-emissions steel capacity can be closed immediately, without affecting overall supply and demand.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Overcapacity'>here</a>.<br><br>
+
+The global steel supply now significantly exceeds the global demand, a phenomenon called “overcapacity”. Overcapacity causes economic losses of steel plants, international trade friction and economic inefficiency, as excess capacity causes the dumping of very cheap steel in other markets, making it more difficult for local plants to compete. The reduced profitability makes it more difficult for plant owners to afford new investments in low-emissions steel infrastructure and technologies, highlighting the importance of closing down unused and high-emission plants to reduce overcapacity and unnecessary emissions. While overcapacity may prove to be a challenge to steel decarbonization, it also provides an opportunity to support the transition as higher-emissions steel capacity can be closed immediately, without affecting overall supply and demand.<br><br>
 
 <ul><b>Policy targets to reduce government intervention and excess capacity:</b>
 <li>Analyze national steel capacity, steel demand, and government interventions in the steel market to identify overcapacity, inefficient plants, and nonconstructive government practices (Price et al., 2013).</li>
@@ -1262,9 +1278,10 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Steel Plant Construction Cost</h3></summary>
-The decarbonization of the steel industry will require significant amounts of capital for new investments. The lack of capital available from low profit margins, in combination with the high costs, therefore, creates an obstacle to the transition. Some of these costs include the construction of low-emissions steel plants, the development and implementation of low-emissions technologies, the training of professionals, higher quality raw materials and renewable energy, and the construction of enabling infrastructure. The accumulation of costs, all of which are greater than the traditional carbon-heavy route without substantially increasing profits, makes it challenging to afford a transition without external upfront investment.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Steel_plant_construction_cost'>here</a>.<br><br>
+
+The decarbonization of the steel industry will require significant amounts of capital for new investments. The lack of capital available from low profit margins, in combination with the high costs, therefore, creates an obstacle to the transition. Some of these costs include the construction of low-emissions steel plants, the development and implementation of low-emissions technologies, the training of professionals, higher quality raw materials and renewable energy, and the construction of enabling infrastructure. The accumulation of costs, all of which are greater than the traditional carbon-heavy route without substantially increasing profits, makes it challenging to afford a transition without external upfront investment.<br><br>
 
 <ul><b>Policy targets to increase capital availability:</b>
 <li>Provide resources and government funding for relevant R&D projects, the construction of low-emissions steel plants and (energy) infrastructure, the refurbishment with low-emissions and energy-efficiency technologies, or to cover increasing costs from renewable energy purchases. This could include grants, loan guarantees, subsidies, public expenditures, tax credits, and deductions, or agreements with financial institutions and investors, including through Public Private Partnerships (PPPs).</li></ul>
@@ -1291,11 +1308,12 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Lifetime and Reinvestment Cycles</h3></summary>
+
+To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Lifetime_and_reinvestment_cycles'>here</a>.<br><br>
+
 A steel plant requires reinvestment after around 20-25 years to achieve its average lifetime of 40 years. To afford the initial construction or relining of steel plants, many owners are dependent on external financing or loans. Getting a return on the initial investments can then take 15 to 20 years. It is these long lifetimes that cause a very slow turnover of steel facilities, reinforced by steel overcapacity, which lessens new construction. <br><br>
 
 Investment decisions are generally made toward the end of a plant’s lifetime or before the reinvestment cycle. At that point, it is the expected profitability of carbon-heavy versus low-emissions steel - as well as the existing technologies available or regulations in place - that determine if a plant owner continues with the current production route or switches.  Around 71% of all existing BF-BOF plants will reach the end of their lifetime before 2030. We should thus aim to make it more profitable to switch to low-emissions steel routes that year at the latest.<br><br>
-
-To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Lifetime_and_reinvestment_cycles'>here</a>.<br><br>
 
 <ul><b>Policy targets to reduce emissions before the end of lifetimes:</b>
 <li>Incentivize or require early retirement of BF-BOF plants (IEA, 2020).</li>
@@ -1309,9 +1327,10 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Access to Financial Resources</h3></summary>
-Because of the high costs associated with switching the production route, the net-zero transition of the steel industry will likely require an investment of USD 235-335 billion by 2050. The only way to afford this will be with extensive help from governments, banks, and investors. To encourage such institutions to invest in the steel industry, there are several factors we need to address: We should increase the profitability of green steel, ensure access to finances is guaranteed despite potentially poor credit histories if the industry is asked to shut down BF-BOF plants before achieving profitability, and create market security to ensure returns on investment. Lastly, we should identify how to reduce investment risks from the focused upfront costs.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Access_to_financial_resources'>here</a>.<br><br>
+
+Because of the high costs associated with switching the production route, the net-zero transition of the steel industry will likely require an investment of USD 235-335 billion by 2050. The only way to afford this will be with extensive help from governments, banks, and investors. To encourage such institutions to invest in the steel industry, there are several factors we need to address: We should increase the profitability of green steel, ensure access to finances is guaranteed despite potentially poor credit histories if the industry is asked to shut down BF-BOF plants before achieving profitability, and create market security to ensure returns on investment. Lastly, we should identify how to reduce investment risks from the focused upfront costs.<br><br>
 
 <ul><b>Policy targets to increase access to funding:</b>
 <li>Enable access to finance through frameworks for sustainable finance (World Steel Association, 2021). This should include criteria or definitions of green and low-emissions steel (IEA, 2020).</li>
@@ -1326,29 +1345,29 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Availability of Low-Emissions Technologies</h3> </summary>
-Around 50% of all global steel plants will require refurbishment or new investments in infrastructure before 2030. This provides us with a critical juncture: a point in time in which the decisions made will determine the future pathway of steel production. The technologies available, their affordability, and their effectiveness will dictate if they will be implemented by the time of reinvestment, or if investors decide to stick with carbon-heavy technologies. At the moment, however, many technologies are still under development and not yet scalable. By 2050, the adoption of Best Available Technologies and breakthrough technologies could reduce around 90% of the industry’s direct emissions, if the expected maturity timelines for new technologies are met. Around 25% of emissions reductions are expected to be achieved from two technologies alone, hydrogen-based DRI (ironmaking) and carbon capture and storage, even though the feasibility and economic practicality of the latter is still in question. That makes green hydrogen and CCUS two essential technologies to develop as fast as possible. However, each steel plant will have its own decarbonization pathway, therefore it is important that we develop a larger repertoire of technologies that enable decarbonization across contexts.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Availability_of_low-emissions_technologies'>here</a>.<br><br>
 
-<ul><b>Policy targets to promote technological maturity:</b>
+Around 50% of all global steel plants will require refurbishment or new investments in infrastructure before 2030. This provides us with a critical juncture: a point in time in which the decisions made will determine the future pathway of steel production. The technologies available, their affordability, and their effectiveness will dictate if they will be implemented by the time of reinvestment, or if investors decide to stick with carbon-heavy technologies. At the moment, however, many technologies are still under development and not yet scalable. By 2050, the adoption of Best Available Technologies and breakthrough technologies could reduce around 90% of the industry’s direct emissions, if the expected maturity timelines for new technologies are met. Around 25% of emissions reductions are expected to be achieved from two technologies alone, hydrogen-based DRI (ironmaking) and carbon capture and storage, even though the feasibility and economic practicality of the latter is still in question. That makes green hydrogen and CCUS two essential technologies to develop as fast as possible. However, each steel plant will have its own decarbonization pathway, therefore it is important that we develop a larger repertoire of technologies that enable decarbonization across contexts.<br><br>
+
+<ul><b>Policy targets to promote the construction of enabling infrastructure:</b>
 <li>Work with national steel plant owners to identify the most important technologies for the national steel decarbonization strategy, as well as the fleet’s reinvestment cycles.</li>
-<li>Invest in the most important breakthrough technologies (e.g., hydrogen-DRI, CCUS, smelting reduction, etc.) using blended finance innovations, to ensure their maturity before 2030. This includes deciding which of the technologies should be promoted.</li>
-<li>Collaborate with financial stakeholders and international organizations to increase investments in R&D, e.g., through financial support (e.g., funded by carbon pricing), public-private partnerships, green bonds and investment portfolios, low-interest loans, concessional finance, etc. (Bataille, 2019; Energy Transitions Commission, 2021; IEA, 2020; Mission Possible Partnership, 2022). R&D can focus on developing and advancing known emissions reduction and steel production technologies, or on developing new near-zero steelmaking processes.</li>
-<li>Lower the cost of relevant technologies to prevent innovation and deployment blockages, for example through subsidies or contracts for difference (Net Zero Steel, 2021).</li>
-<li>Increase the number of pilot and demonstration projects to develop and de-risk projects, for example through public expenditures, concessional finance, and collaborations with steel plant owners and research institutions (Energy Transitions Commission, 2021).</li>
-<li>Incentivize the deployment of new technologies, e.g., through subsidies, exhortation, public expenditures, etc., to ensure they become profitable and commercially scalable (Swalec & Shearer, 2021).</li>
-<li>Reduce bureaucratic barriers to accelerate licensing procedures for new technologies and enabling infrastructure, e.g., through regulatory reforms and capacity building (Mission Possible Partnership, 2022).</li>
-<li>Set-up and promote knowledge-sharing and innovation coordination programs to accelerate technological development and maturity (IEA, 2020). This should include making technology maturity timelines and developments transparent and available to steel plant owners.</li>
-<li>Promote the creation of enabling infrastructure and resources to implement breakthrough technologies. This requires collaboration with steel producers and the steel supply chain.</li></ul>
+<li>Analyze the existing and future needs for enabling infrastructure, such as production, storage, and distribution facilities for renewable energy, hydrogen, and other strategy-relevant resources. This requires collaboration with the energy and steel industry stakeholders.</li>
+<li>Coordinate and fund the development of carbon storage, sequestration, and transportation infrastructure where needed, to allow CCUS usage and lower to its cost (Energy Transitions Commission, 2021). This may require an initial identification of suitable sites and the set-up of a regulatory framework (IEA, 2020).</li>
+<li>Legislate and incentivize the expansion of renewable energy production, storage, and high-voltage electricity transmission to ensure high availability and accessibility for low-emissions steel producers (IEA, 2020; Mission Possible Partnership, 2022).</li>
+<li>Invest in and plan the expansion and research of green hydrogen production, storage, and distribution to ensure high availability and accessibility for low-emissions steel producers (Yadav et al., 2021).</li>
+<li>Implement localized waste heat-sharing infrastructure between industries, e.g., between steel and chemical plants (Bataille, 2019).</li>
+</ul>
 
 </details>
 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Availability of Low-Emissions Infrastructure</h3></summary>
-Several technologies, like CCUS, green hydrogen and electricity production, and Best Available Technologies technologies are deemed necessary for the transition, but are not alone sufficient to achieve it: They require certain infrastructure to exist to be used. CCUS is dependent on access to geological spaces in which the emissions can be stored. Therefore, a plant needs to have a suitable underground site within reach, as well as the necessary infrastructure to transport the emissions. Hydrogen, too, requires infrastructure, including hydrogen production-, storage-, and distribution facilities. All of them will need to be expanded greatly. Renewable energy production facilities, too, are not sufficient for a transition if we do not prepare for high-voltage electricity transmission and storage infrastructure. Lastly, it would be possible to increase energy efficiency across industries if we were to implement localized waste heat-sharing infrastructure. If the relevant infrastructure is not within geographical proximity, it may cause the relocation of steel plants, or incentivize the continuation of carbon-intensive practices.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Availability_of_low-emissions_infrastructure'> here</a>.<br><br>
+
+Several technologies, like CCUS, green hydrogen and electricity production, and Best Available Technologies technologies are deemed necessary for the transition, but are not alone sufficient to achieve it: They require certain infrastructure to exist to be used. CCUS is dependent on access to geological spaces in which the emissions can be stored. Therefore, a plant needs to have a suitable underground site within reach, as well as the necessary infrastructure to transport the emissions. Hydrogen, too, requires infrastructure, including hydrogen production-, storage-, and distribution facilities. All of them will need to be expanded greatly. Renewable energy production facilities, too, are not sufficient for a transition if we do not prepare for high-voltage electricity transmission and storage infrastructure. Lastly, it would be possible to increase energy efficiency across industries if we were to implement localized waste heat-sharing infrastructure. If the relevant infrastructure is not within geographical proximity, it may cause the relocation of steel plants, or incentivize the continuation of carbon-intensive practices.<br><br>
 
 <ul><b>Policy targets to promote the construction of enabling infrastructure:</b>
 <li>Analyze the existing and future needs for enabling infrastructure, such as production-, storage-, and distribution facilities for renewable energy, hydrogen, and other strategy-relevant resources. This requires collaboration with the energy and steel industry stakeholders. </li>
@@ -1362,100 +1381,113 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Trained Professionals</h3></summary>
-To run low-emissions steel plants and support the construction and functioning of enabling factors - such as enabling infrastructure - we need qualified staff.  Low-emissions steel facilities use novel technologies and infrastructure, the use of which needs to be learned. Additionally, the absence of necessary infrastructure and resources could force some steel companies to relocate to more favorable locations. Without past exposure and opportunities to work within the steel industry, new locations may have a shortage of qualified employees, providing a challenge for facilities. Professionals, therefore, need the right training, which itself requires some long-term planning to educate, recruit, (re)train, and employ a sufficient number of people for the right positions.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Trained_professionals'> here</a>.<br><br>
 
+To run low-emissions steel plants and support the construction and functioning of enabling factors - such as enabling infrastructure - we need qualified staff.  Low-emissions steel facilities use novel technologies and infrastructure, the use of which needs to be learned. Additionally, the absence of necessary infrastructure and resources could force some steel companies to relocate to more favorable locations. Without past exposure and opportunities to work within the steel industry, new locations may have a shortage of qualified employees, providing a challenge for facilities. Professionals, therefore, need the right training, which itself requires some long-term planning to educate, recruit, (re)train, and employ a sufficient number of people for the right positions.<br><br>
+
 <ul><b>Policy targets to ensure sufficient trained professionals:</b>
-<li>Analyze the national steel and energy infrastructure, to understand the current and future needs of training and the number of professionals.</li>
+<li>Analyze national steel and energy infrastructure to understand current and future training needs and the number of professionals needed.</li>
 <li>Create strategies to support a just transition, including mitigation opportunities for social or employment impacts caused by relocations and technology changes (IEA, 2020).</li>
-<li>If needed, create or promote training opportunities, either in collaboration with steel companies or through the support of universities and training institutes (Mission Possible Partnership, 2022).</li></ul>
+<li>If needed, create or promote training opportunities, either in collaboration with steel companies, or through the support of universities and training institutes (Mission Possible Partnership, 2022).</li>
+</ul>
 
 </details>
 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Green Steel Definition</h3></summary>
-Not every country has yet set standards for low-emissions steel, or even defined what constitutes a “green” steel production. However, having internationally harmonized definitions and standards could help us greatly in the transition, as it would allow us to set investment principles, regulations, and decarbonization policies that promote a net-zero steel production pathway. Without a clear and enforced definition, the industry allows steel with slightly fewer carbon emissions - although still being far from net zero - to be labeled as green steel. This reduces the effectiveness of market incentives, as consumers and investors are dealing with imperfect information, struggling to identify which products have a low carbon footprint or to evaluate the price-performance ratio. With clear and internationally harmonized definitions and certifications, as well as better customer awareness, the transition could be effectively driven by policy interventions and market incentives.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Green_steel_definition'>here</a>.<br><br>
 
+Not every country has yet set standards for low-emissions steel, or even defined what constitutes a “green” steel production. However, having internationally harmonized definitions and standards could help us greatly in the transition, as it would allow us to set investment principles, regulations, and decarbonization policies that promote a net-zero steel production pathway. Without a clear and enforced definition, the industry allows steel with slightly fewer carbon emissions - although still being far from net zero - to be labeled as green steel. This reduces the effectiveness of market incentives, as consumers and investors are dealing with imperfect information, struggling to identify which products have a low carbon footprint or to evaluate the price-performance ratio. With clear and internationally harmonized definitions and certifications, as well as better customer awareness, the transition could be effectively driven by policy interventions and market incentives.<br><br>
+
 <ul><b>Policy targets to create a green steel definition:</b>
-<li>Clearly differentiate between different types of steel based on their emissions, to create definitions of low-emissions and green steel (Mission Possible Partnership, 2022).</li>
+<li>Clearly differentiate between different types of steel, based on their emissions, to create definitions of low-emissions and green steel (Mission Possible Partnership, 2022).</li>
 <li>Collaborate globally to align on a green steel definition, potentially through an international agreement or the harmonization of different definitions and certifications.</li>
-<li>Integrate the definitions in investment criteria, both within governments and financial stakeholders.</li></ul>
+<li>Integrate green steel definitions in investment criteria, among both governments and financial stakeholders.</li></ul>
 
 </details>
 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Technology Standards</h3></summary>
-In the renewable energy sector, agreed-upon technology standards were an important element to enable the implementation and development of the industry. Such standards included agreements regarding new technologies’ performance, reliability, and durability. A lack of standards, procedures, and guidelines created barriers to the scaling of technologies, making large-scale adoption more difficult. The steel industry can learn from other industries’ lessons and prevent similar challenges through early preparation and institutions that determine and enforce technology standards. This is particularly important now, as many steel producers started to determine their transition strategies, including the technologies they might use. Uncertainty about the acceptance and effectiveness of technologies may slow this process and hence the transition.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Technology_standards'>here</a>.<br><br>
 
+In the renewable energy sector, agreed-upon technology standards were an important element to enable the implementation and development of the industry. Such standards included agreements regarding new technologies’ performance, reliability, and durability. A lack of standards, procedures, and guidelines created barriers to the scaling of technologies, making large-scale adoption more difficult. The steel industry can learn from other industries’ lessons and prevent similar challenges through early preparation and institutions that determine and enforce technology standards. This is particularly important now, as many steel producers started to determine their transition strategies, including the technologies they might use. Uncertainty about the acceptance and effectiveness of technologies may slow this process and hence the transition.<br><br>
+
 <ul><b>Policy targets to create effective technology standards:</b>
-<li>Clearly define the sustainability category of steelmaking technologies, e.g., if CCUS is considered a low-emissions technology (World Steel Association, 2021). This includes acknowledging that many different technologies will be used across plants and that all pathways will be supported equally.</li>
+<li>Clearly define the sustainability category of steelmaking technologies, e.g., whether CCUS is considered a low-emissions technology (World Steel Association, 2021). This includes acknowledging that many different technologies will be used across plants and that all relevant pathways will be supported.</li>
 <li>Create standards for low-emissions steelmaking technologies, including the effectiveness, efficiency, and carbon-reduction levels required.</li>
-<li>Collaborate internationally to align standards and definitions of technologies and so level the global playing field.</li></ul>
+<li>Collaborate internationally to align standards and definitions of technologies and to level the global playing field.</li>
+</ul>
 
 </details>
 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Bureaucratic Barriers</h3></summary>
-The planning and construction of steel plants takes several years, but is frequently prolonged further by long waiting times to receive construction permits and other required licenses. As many low-emissions technologies are rather novel, the bureaucratic process and approval time may take even longer. For Carbon Capture and Storage, for example, it often requires sequestration and transportation licenses and is associated with continuous safety monitoring that may require new staff, resources, and consistent interaction with relevant government departments. While these processes and safety checks are important, we should work to reduce waiting times and excessive bureaucracy so that our emission reduction targets can be achieved.<br><br>
 
 To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Bureaucratic_barriers'>here</a>.<br><br>
 
+The planning and construction of steel plants takes several years, but is frequently prolonged further by long waiting times to receive construction permits and other required licenses. As many low-emissions technologies are rather novel, the bureaucratic process and approval time may take even longer. For Carbon Capture and Storage, for example, it often requires sequestration and transportation licenses and is associated with continuous safety monitoring that may require new staff, resources, and consistent interaction with relevant government departments. While these processes and safety checks are important, we should work to reduce waiting times and excessive bureaucracy so that our emission reduction targets can be achieved.<br><br>
+
 <ul><b>Policy targets to reduce bureaucratic barriers:</b>
-<li>Eliminate excessive bureaucracy for low-emissions steelmaking technologies, to simplify their commercialization process and adoption across steel companies.</li>
-<li>Reduce bureaucratic processes for the licensing and construction processes of low-emissions steel plants. Having clearly defined technology and steel standards can simplify this process (IEA, 2020).</li>
-<li>Align bureaucratic procedures with the national steel decarbonization strategy, to ensure that bureaucratic procedures do not hamper the transition of a steel plant at the end of its lifetime or during reinvestments.</li>
-<li>Engage in capacity building within the government, e.g., through the provision of information and training about new steelmaking technologies, their requirements, and how they need to be implemented and monitored.</li>
-<li>If necessary, create nudges and reminders to support steel producers to file low-emissions technology and infrastructure permit requests on time, especially if bureaucratic requirements change. This can include changes in the default options or the provision of new information.</li></ul>
+<li>Eliminate excessive red tape for low-emissions steelmaking technologies to simplify their commercialization process and adoption across steel companies.</li>
+<li>Reduce bureaucratic processes for the licensing and construction processes of low-emissions steel plants. Having clearly-defined technology and steel standards can simplify this process (IEA, 2020).</li>
+<li>Align bureaucratic procedures with the national steel decarbonization strategy to ensure that bureaucratic procedures do not hamper the transition of a steel plant at the end of its lifetime or during reinvestments.</li>
+<li>Engage in capacity-building within government, e.g., through the provision of information and training about new steelmaking technologies, requirements, implementation, and monitoring.</li>
+<li>If necessary, create nudges and reminders to support steel producers in filing low-emissions technology and infrastructure permit requests on time, especially if bureaucratic requirements change. Such changes may relate to either default options or the provision of new information.</li>
+</ul>
 
 </details>
 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Accountability to Steel Decarbonization</h3></summary>
+
+To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Accountability_to_steel_decarbonization'>here</a><br><Br>
+
 Although an increasing number of countries and steel producers announced their decarbonization targets, there are few measures to ensure that such pledges are being followed by action. This poses a challenge: Often the simple announcement of ambitious climate targets improves a steel company’s access to funding and public perception, leading to a higher number of announcements in the last few years. However, there are no accountability measures that ensure that such plans are actually implemented. That makes market incentives less effective, slowing the transition. The lack of commitment to implement existing technologies additionally makes it difficult to develop incentives and punishments that could push steel producers to meet their targets in a timely manner. For a successful transition, we need to not only ensure that more companies and countries commit to timely decarbonizations but also develop accountability measures that ensure the targets are met.<br><br>
 
-To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Accountability_to_steel_decarbonization'>here</a>.<br><br>
+At this point, there are few examples available for policy targets addressing the accountability of countries and companies:IT<br><br>
 
 <ul><b>Policy targets to improve international cooperation and accountability:</b>
-<li>Create and ratify a binding international agreement between major steelmaking countries and companies, to ensure a multilateral commitment and accountability to rapid steel decarbonization (A. Ritter, personal communication, July 28, 2022). This could be in the form of a climate club and should include a definition of green steel, a certification, and tracking framework, and the commitment to not build BF-BOF plants without CCS past 2025 (IEA, 2020; Mission Possible Partnership, 2022; Net Zero Steel, 2021).</li>
-<li>Identify how wealthy countries can support and incentivize others in creating and achieving their steel decarbonization pathways, e.g., through financial investments into infrastructure, energy production systems, trade of relevant resources, information and training, etc., and enforce such support through bilateral and multilateral agreements.</li>
-<li>Increase the security of steel trade to shift political preferences towards trade rather than national capacity expansion. A commitment to not use tariffs and border taxes on green steel during the transition may support such a goal (Gray & M’barek, 2022; IEA, 2020).</li>
-<li>Consider creating consumption-based regulations on the materials going into end-use products (e.g., cars), such as carbon taxes, gradually declining caps on the end-product emissions, or mandates for low-emissions usage shares (IEA, 2020, p. 202).</li>
-<li>Establish international forums to exchange information about technologies, best practices, climate finance, and strategies to increase awareness and trade (IEA, 2020; Mission Possible Partnership, 2022).</li></ul>
+<li>Create and ratify a binding international agreement between major steelmaking countries and companies to ensure multilateral commitment and accountability to rapid steel decarbonization (A. Ritter, personal communication, July 28, 2022). This could take the form of a climate club, for example, and should include a definition of green steel, a certification and tracking framework, and the commitment not to build BF-BOF plants without CCUS past 2025 (IEA, 2020; Mission Possible Partnership, 2022; Net Zero Steel, 2021).</li>
+<li>Identify how wealthy countries can support and incentivize other countries in creating and achieving steel decarbonization pathways, e.g., through financial investments into infrastructure, energy production systems, trade of relevant resources, information and training, etc. This support should be enforced through bilateral and multilateral agreements.</li>
+<li>Increase the security of steel trade to shift political preferences towards trade rather than national capacity expansion. A commitment to not use tariffs and border taxes on green steel during the energy transition may support such a goal (Gray & M’barek, 2022; IEA, 2020).</li>
+<li>Consider creating consumption-based regulations for materials going into end-use products (e.g., cars). These regulations could include carbon taxes, gradually declining caps on end-product emissions, or mandates for low-emissions usage shares (IEA, 2020, p. 202).</li>
+<li>Establish international forums to exchange information about technologies, best practices, climate finance, and strategies to increase awareness and trade (IEA, 2020; Mission Possible Partnership, 2022).</li>
+</ul>
 
 </details>
 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>International Cooperation</h3></summary>
+
+To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/International_cooperation'>here</a>.<br><br>
+
 The largest steel producers are currently China and India. Although both countries announced plans to become carbon neutral by 2060 and 2070 respectively, they also continue to invest in new BF-BOF plants. Due to the large share of steel capacity, and consequently emissions, we cannot succeed in our global steel decarbonization efforts if there is no successful transition within China’s and India’s industries. Some countries' steel transition, therefore, should be a priority on the international political agenda.<br><br>
 
 Many countries require extensive support, for example through increased access to funding, green materials, and technologies, or even with specific infrastructure developments, to kickstart their steel decarbonization. For that it will take more international cooperation targeting both the steel industry directly and enabling industries such as the renewable energy sector.<br><br>
 
 Currently, we have no international agreements that determine how to transform the steel industry on a global scale. However, due to the international nature of the industry, it is difficult for one country to transition without the risk of “carbon leakage”. This risk can be avoided when changes are made internationally, also referred to as “leveling the global playing field”.<br><br>
 
-To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/International_cooperation'>here</a>.<br><br>
-
 <ul><b>Policy targets to level the global playing field:</b>
-<li>Collaborate to create international cross-sectoral carbon accounting and regulation schemes or carbon border adjustments (IEA, 2020; Mission Possible Partnership, 2022).</li>
+<li>Collaborate to create international cross-sectoral carbon accounting and regulation schemes or carbon border adjustments (IEA, 2020; Mission Possible Partnership, 2022).</li>>
 <li>Increase access to funding for steel decarbonization from international organizations, such as the World Bank, International Monetary Fund, etc. This can include concessional finance by multilateral banks, development finance institutions (DFIs), private finance, equity, debt, grants, or other financial instruments.</li>
 <li>Create trade agreements for hydrogen, renewable energy, and other resources relevant to the regional steel decarbonization pathways.</li>
-<li>Identify policies that create markets for low-emissions steel and ensure competitiveness in compliance with the World Trade Organizations requirements (IEA, 2020).</li></ul>
+<li>Identify policies that create markets for low-emissions steel and ensure competitiveness in compliance with World Trade Organizations requirements (IEA, 2020).</li>
+</ul>
 
 <ul><b>Policy targets to improve international cooperation and accountability:</b>
-<li>Create and ratify a binding international agreement between major steelmaking countries and companies, to ensure a multilateral commitment and accountability to rapid steel decarbonization (A. Ritter, personal communication, July 28, 2022). This could be in the form of a climate club and should include a definition of green steel, a certification, and tracking framework, and the commitment to not build BF-BOF plants without CCS past 2025 (IEA, 2020; Mission Possible Partnership, 2022; Net Zero Steel, 2021).</li>
-<li>Identify how wealthy countries can support and incentivize others in creating and achieving their steel decarbonization pathways, e.g., through financial investments into infrastructure, energy production systems, trade of relevant resources, information and training, etc., and enforce such support through bilateral and multilateral agreements.</li>
-<li>Increase the security of steel trade to shift political preferences towards trade rather than national capacity expansion. A commitment to not use tariffs and border taxes on green steel during the transition may support such a goal (Gray & M’barek, 2022; IEA, 2020).</li>
-<li>Consider creating consumption-based regulations on the materials going into end-use products (e.g., cars), such as carbon taxes, gradually declining caps on the end-product emissions, or mandates for low-emissions usage shares (IEA, 2020, p. 202)</li>
-<li>Establish international forums to exchange information about technologies, best-practices, climate finance, and strategies to increase awareness and trade (IEA, 2020; Mission Possible Partnership, 2022).</li></ul>
+<li>Create and ratify a binding international agreement between major steelmaking countries and companies to ensure multilateral commitment and accountability to rapid steel decarbonization (A. Ritter, personal communication, July 28, 2022). This could take the form of a climate club, for example, and should include a definition of green steel, a certification and tracking framework, and the commitment not to build BF-BOF plants without CCUS past 2025 (IEA, 2020; Mission Possible Partnership, 2022; Net Zero Steel, 2021).</li>
+<li>Identify how wealthy countries can support and incentivize other countries in creating and achieving steel decarbonization pathways, e.g., through financial investments into infrastructure, energy production systems, trade of relevant resources, information and training, etc. This support should be enforced through bilateral and multilateral agreements.</li>
+<li>Increase the security of steel trade to shift political preferences towards trade rather than national capacity expansion. A commitment to not use tariffs and border taxes on green steel during the energy transition may support such a goal (Gray & M’barek, 2022; IEA, 2020).</li>
+<li>Consider creating consumption-based regulations for materials going into end-use products (e.g., cars). These regulations could include carbon taxes, gradually declining caps on end-product emissions, or mandates for low-emissions usage shares (IEA, 2020, p. 202).</li>
+</ul>
 
 
 </details>
@@ -1463,6 +1495,9 @@ To learn more about this challenge and potential policy opportunities, click <a 
 <details style='border-width: 0.5px; padding: 15px; border-radius: 5px'>
 <summary>
 <h3>Awareness and Information Availability</h3></summary>
+
+To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Awareness_and_information_availability'>here</a>.<br><br> 
+
 Transitioning to low-emissions and green steel requires certain transparency and availability of information, especially for market incentives to work effectively.<br><br>
 
 Steel Producers will need to make decisions about future production pathways and investments, which requires knowledge of the long-term strategies by governments, consistency in policy actions, and awareness of future technology and infrastructure availability.<br><br>
@@ -1473,19 +1508,19 @@ Governments need to have an understanding of their own industry’s functioning 
 
 Financial Institutions need information about steel production types and the respective emissions created to make investment decisions. At the moment we see a general underreporting, and those wanting to increase financial access for low-emission companies need to rely on accurate self-reporting of emissions or some kind of low-emissions certifications.<br><br>
 
-To learn more about this challenge and potential policy opportunities, click <a href='https://www.gem.wiki/Awareness_and_information_availability'>here</a>.<br><br> 
-
 <ul><b>Policy targets to promote clarity on the decarbonization pathway:</b>
-<li>Create and publish a specific national steel decarbonization strategy, highlighting pathways on a sectoral, national, and regional level that creates clarity for steel producers and other relevant stakeholders. It should include guidance on the technologies that will be accepted and when they are expected to mature (including any requirements for their implementation), the infrastructure and resources that will be available and at approximately what cost, future regulations and costs on carbon-intensive steel, government low-emissions steel procurement plans, regional competitive advantages, interim targets, and milestone events, investment-, infrastructure-, labor- and regulatory needs, and any other information that can help steel producers to plan ahead and make transition choices (Bataille, 2019).</li>
-<ul><li>While each country will need to make a location-specific analysis, we can generally orient ourselves at publicly available steel decarbonization pathways. Some of the more recent ones include the IEA’s Iron and Steel Technology Roadmap, the IDDRI’s Net Zero Steel project, several reports by McKinsey & Company, OECD’s “Low and Zero emissions in the steel and cement industries”, the “Net Zero steel initiative” by Mission Possible Partnership, and reports by the World Steel Association (Swalec, 2022).</li></ul>
-<li>Enforce labeling, certification, and standards to enable the functioning of market incentives (IEA, 2020).</li></ul>
+<li>Every country should create and publish a specific national steel decarbonization strategy, highlighting pathways on a sectoral, national, and regional level that create clarity for steel producers and other relevant stakeholders. It should include guidance on the technologies that will be accepted and when they are expected to mature (including any requirements for their implementation); infrastructure and resources that will be available and their cost; future regulations and costs of carbon-intensive steel; government low-emissions steel procurement plans; regional competitive advantages; interim targets and milestone events; investment, infrastructure, labor, and regulatory needs; and any other information that can help steel producers plan ahead and make transition choices (Bataille, 2019).</li>
+<ul><li>While each country will need to make a location-specific analysis, it is possible to generally orient toward publicly-available steel decarbonization pathways. Some of the more recent pathways include the IEA’s Iron and Steel Technology Roadmap, the IDDRI’s Net Zero Steel Project, several reports by McKinsey & Company, OECD’s “Low and Zero emissions in the steel and cement industries” report, the “Net Zero steel initiative” by Mission Possible Partnership, and reports by the World Steel Association (Swalec, 2022).</li></ul>
+<li>Enforce labeling, certification, and standards to enable the functioning of market incentives (IEA, 2020).</li>
+</ul>
 
 <ul><b>Policy targets to enhance awareness and information exchange:</b>
-<li>Identify the stakeholders working on steel decarbonization and on addressing the various challenges, to facilitate collaboration, information exchange, and best-practice sharing. Ensure their collaboration, for example through incubator programs, steel industry associations, and innovation research networks (IEA, 2020).</li>
-<li>Increase and improve verifiable data collection and reporting by steel producers, including data about the production pathways used, the capacity and yields of a plant, underutilization rates, the fuel and resources used during operation and subsequent emissions released, the energy efficiency- and carbon reduction technologies implemented, decarbonization strategies and performance evaluation, etc. (IEA, 2020; Swalec, 2022) Data collection and monitoring should also target the value chains involving steel (IEA, 2020).</li>
-<li>Improve public engagement and education, e.g., through campaigns about the significance of the steel transition, the decarbonization choices made, and how each stakeholder can participate in the process, e.g., with training, smart designs, collaborations, etc. (Loken et al., 2021). This should also include awareness campaigns for all actors along the steel supply chain, which need to know about the options they have and costs they face for a green transition (Bataille, 2019).</li>
-<li>Facilitate the set-up of trading platforms for low-emissions and green steel, in collaboration with steel producers and consumers (Mission Possible Partnership, n.d.).</li>
-<li>Create and publish green finance opportunities, investment schemes, and taxonomies (IEA, 2020).</li></ul>
+<li>Identify the stakeholders working on steel decarbonization and addressing its various challenges, to facilitate collaboration, information exchange, and best-practice sharing. Examples for ensuring their collaboration, for example through incubator programs, steel industry associations, and innovation research networks (IEA, 2020).</li>
+<li>Increase and improve verifiable data collection and reporting by steel producers, including data about the production pathways used, the capacity and yields of a plant, underutilization rates, the fuel and resources used during operation and subsequent emissions released, energy efficiency and carbon reduction technologies implemented, decarbonization strategies and performance evaluation, etc. (IEA, 2020; Swalec, 2022) Data collection and monitoring should also target the value chains involving steel (IEA, 2020).</li>
+<li>Improve public engagement and education, e.g., through campaigns about the significance of the steel transition, decarbonization choices made, and how each stakeholder can participate in the process. This could include training, smart designs, collaborations, etc. (Loken et al., 2021), as well as awareness campaigns for all actors along the steel supply chain, who need to know what options they have and costs they face for a green transition (Bataille, 2019).</li>
+<li>Facilitate the development of trading platforms for low-emissions and green steel, in collaboration with steel producers and consumers (Mission Possible Partnership, n.d.).</li>
+<li>Create and publish green finance opportunities, investment schemes, and taxonomies (IEA, 2020).</li>
+</ul>
 
 </details></p>
 
@@ -1497,11 +1532,9 @@ To learn more about this challenge and potential policy opportunities, click <a 
 
           </main>
             <aside class="sidebar">
-            <a class="btn--back" href="https://globalenergymonitor.org/projects/"><svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <i class="fas fa-chevron-left"></i> Font Awesome fontawesome.com --><span class="sr-only">Back to</span> Projects</a><ul id="menu--sidebar" class="menu--sidebar"><li class="current-menu-item"><a href="/">Steel Decarbonization Policy Tool</a><ul class="sub-menu"><li class=" tracker-menu-item"><a href="./map"><b>Launch Interactive Policy Tool</b></a></li><li class=" tracker-menu-item"><a href="./methodology">Methodology</a></li> <li class=" tracker-menu-item"><a href="./methodology">Frequently Asked Questions</a></li></ul></li></ul><br>
+            <a class="btn--back" href="https://globalenergymonitor.org/projects/"><svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <i class="fas fa-chevron-left"></i> Font Awesome fontawesome.com --><span class="sr-only">Back to</span> Projects</a><ul id="menu--sidebar" class="menu--sidebar"></ul><br><br><br><br><br><br>
 
-            <form class="container" enctype="multipart/form-data" method="post" style='width: 500px; font-size: 12px; margin-left: 0px'>
-
-            </p>
+            <form class="container" enctype="multipart/form-data" method="post" style='width: 450px; font-size: 12px; margin-left: 0px'>
 
             <br/><button type="submit" name='submit_button' class="btn btn-success" value='update_map' style="font-size:100%; width:60%; height:50px;
             border-radius: 5px; font-size: 20px"> Update Map</button>
